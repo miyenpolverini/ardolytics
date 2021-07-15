@@ -185,7 +185,7 @@ footer .redes i{
   margin:0 auto;  
 }
 
-/* VOLVER/ARRIBA */
+/* BOTONES VOLVER/ARRIBA */
 
 .footer__volver,
 .footer__arriba{
@@ -218,6 +218,11 @@ footer .redes i{
 }
 
 @media only screen and (max-width: 768px){
+
+  .contenido-menu li{
+    padding: 1rem;
+  }
+
   .pie{
     padding: 50px;
     display:block;
@@ -237,7 +242,7 @@ footer .redes i{
       right: 15px;
     }
     #logo-facebook{
-      padding: 13px;
+      padding: 13px 14px;
     }
   } 
   .logoPrincipal{
