@@ -1,0 +1,115 @@
+$medida: 100px;
+
+/* FORMULARIOS */
+.estiloFormDt,
+.estiloForm{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+/* HTML CONTACTO */
+#seccionContacto{
+    width: 250px;
+    margin: auto;
+}
+
+.estiloFormDt select,
+.estiloForm select{
+    width: 250px;
+    height: 30px;
+    border: 3px solid grey;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    color: #333;
+}
+.estiloFormDt .nacion,
+.estiloFormDt .proced{
+    margin: 20px;
+    margin-left: 80px;
+}
+.estiloFormDt .edad{
+    margin: 20px;
+    margin-left: 135px;
+    
+}
+.estiloFormDt .estilo{
+    margin: 20px 60px; 
+}
+.estiloFormDt .formacion{
+    margin: 20px 24px; 
+}
+
+.estiloForm .nacion,
+.estiloForm .proced{
+    margin: 20px;
+    margin-left: 80px;
+}
+.estiloForm .posicion{
+    margin: 20px;
+    margin-left: 108px;
+}
+.estiloForm .posicionDet{
+    margin: 20px 38px;
+}
+.estiloForm .edad{
+    margin: 20px;
+    margin-left: 135px;
+}
+.estiloForm .pierna{
+    margin: 20px 82px;
+}
+
+form{
+    padding: 20px;
+}
+
+.limpiar{
+    background-color: yellow;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    width: 80px;
+    height: 30px;
+}
+
+.enviar{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    width: 80px;
+    height: 30px;  
+}
+
+.niveles{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.nivel{
+    border: 2px solid black; 
+    height: 30px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+
+@for $i from 1 through 3{
+    .nivel-#{$i}{
+        width: $medida * 1 *$i;
+        background-color: darken(#666666, $i * 10)
+    }
+}
+
+.table-jugadores{
+    cursor: pointer;
+}
+
+.contenido-scout{
+    float: right;
+    margin: 50px; 
+}
+.contenido-scout-dt img{
+    width: 650px;
+    float: right;
+    margin: 50px;
+}
+

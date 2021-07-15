@@ -1,0 +1,247 @@
+@import "formularios";
+@import "seccion-ligas";
+@import "guia-copa-america";
+@import "seccion-copas";
+@import "seccion-equipos";
+@import "seccion-ranking";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+/* CUERPO */
+body{
+  background-image: url(../img/pool_table.png);
+  font-family: Arial, Helvetica, sans-serif;      
+  color: black;
+}
+/* TITULOS */
+
+.logoPrincipal{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 10px;
+  margin-right: 250px;
+  margin-left: 50px;  
+}
+
+h1, h2{
+  margin: 30px;
+  font-weight: bold;
+  font-size: 1.5em;  
+}
+
+h4{
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  background-color: darkslategray;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+a{
+  color: rgba(255,255,255,0.8);
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+.carousel-portada{
+  height: 750px;
+}
+
+/* MENU DESPLEGABLE */
+nav{
+  font-size: 14px;
+}
+
+.nav-index{
+  font-size: 14px;
+  position: relative;
+  bottom: 750px;
+  z-index: 1;
+}
+
+ul ul li {
+  width: 250px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+/* para desplegar sub-menu sin clickear */
+ul li:hover ul {
+  display:block;
+} 
+
+.menu-boot:hover{
+  color: white;
+  border-bottom: 5px solid black;
+}
+
+.submenu-boot{
+  background:rgb(35, 59, 59);
+}
+
+.submenu-boot li a{
+  color: white;
+}
+
+.submenu-boot li a:hover{
+  color: gray;
+}
+
+/* IMAGENES INDEX */
+
+.iconosIndex{
+  width: 15px;
+}
+
+.logoPelota {
+  background-color: white;   
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+  right: 5px;
+  bottom: 5px;
+  animation: animacion 3s linear 0s alternate;
+  transition: all 2s ease;
+}
+
+.logoPelota:hover{
+  transform:rotate(360deg); 
+}
+
+/*----- ANIMACION PELOTA -------*/
+@keyframes animacion {
+  from { }
+  to {
+    transform:rotate(360deg);
+  }
+} 
+
+/* FOOTER */
+.contacto{
+         display: flex;
+         justify-content:center;
+         align-items:center;
+         .seccion-contacto{
+                           padding: 0.5rem;
+         }
+}
+
+.susc-opciones{
+  color: rgba(255,255,255,0.8);
+  font-family: 'Roboto', sans-serif;
+}
+
+.pie a:hover{
+  color: white;
+}
+
+footer .redes i{
+  font-size: 1.2rem;
+}
+
+.pie{
+  background-color: rgba(47, 79, 79,.8);
+  padding: 50px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  position: relative;
+  bottom: 75px;
+}
+
+
+.redes{
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      list-style: none;
+      a{
+        color: rgba(255, 255, 255, 0.5);
+      }
+      li{
+        padding: 0.5rem;
+      }
+}
+
+#nombreCreador{
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+}
+
+.barra-div{
+  border-bottom: 5px solid rgba(255, 255, 255, 0.1);
+  width: 50%;
+  margin:0 auto;  
+}
+
+/* VOLVER/ARRIBA */
+
+.footer__volver,
+.footer__arriba{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid black;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 1s;
+}
+
+.footer__volver:hover,
+.footer__arriba:hover{
+  background-color: darkslategray;
+}
+
+.footer__volver a:hover,
+.footer__arriba a:hover{
+  color: black;
+}
+
+.footer__arriba i,
+.footer__volver i{
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 768px){
+  .pie{
+    padding: 50px;
+    display:block;
+    justify-content:center;
+    align-items:center; 
+  }
+  .redes{
+    margin-top: 30px;   
+  }
+  footer .redes{
+    i{
+      font-size: 1rem;
+      background-color: black;
+      border-radius: 50%;
+      padding: 11px;
+      position: relative;
+      right: 15px;
+    }
+    #logo-facebook{
+      padding: 13px;
+    }
+  } 
+  .logoPrincipal{
+    margin:0 auto ;
+  }
+  
+}

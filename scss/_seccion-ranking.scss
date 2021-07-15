@@ -1,0 +1,241 @@
+$medida-max: 500px;
+
+/* RANKING HTML */
+.barraPuntos {
+  margin: 50px 30px; }
+
+.barraPuntos h4 {
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  background: none;
+  margin-top: 5px; }
+
+.barraPuntos img {
+  width: 50px;
+  height: 40px;
+  margin: -10px 15px 30px 20px; }
+
+.barra10 img {
+  margin-left: 10px; }
+
+.fifa {
+  width: 150px;
+  margin: 0 auto; 
+      img{
+        width: 150px;
+        }
+      h4{
+        margin-top: 30px;          
+      }
+      }
+
+.barra1,
+.barra2,
+.barra3,
+.barra4,
+.barra5,
+.barra6,
+.barra7,
+.barra8,
+.barra9,
+.barra10 {
+  display: flex; }
+
+@mixin transiciones ($bg, $anim, $margin){
+  width: 1px;
+  height: 30px;
+  font-weight: bold;
+  background-color: $bg;
+  animation-name: $anim;
+  animation-iteration-count: 1s;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-left: $margin;
+  text-align: right;
+  padding: 5px 5px;
+}
+
+.tran1 {
+  @include transiciones(black, desplazar, 53px);
+ }
+
+.tran2 {
+  @include transiciones(blue, desplazar2, 53px);
+ }
+
+.tran3 {
+  @include transiciones(green, desplazar3, 65px);
+  }
+
+.tran4 {
+  @include transiciones(white, desplazar4, 20px);
+ }
+
+.tran5 {
+  @include transiciones(red, desplazar5, 33px);
+ }
+
+.tran6 {
+  @include transiciones(red, desplazar6, 58px);
+ }
+
+.tran7 {
+  @include transiciones(green, desplazar7, 72px);
+}
+
+.tran8 {
+  @include transiciones(#4CA3DD, desplazar8, 26px);
+ }
+
+.tran9 {
+  @include transiciones(blue, desplazar9, 41px);
+ }
+
+.tran10 {
+  @include transiciones(red, desplazar10, 23px);
+ }
+
+  
+  /* ANIMACIONES */
+  @keyframes desplazar {
+    0% {
+      width: 0px; }
+    25% {
+      width: 100px; }
+    50% {
+      width: 200px;
+      background-color: gold; }
+    75% {
+      width: 300px; }
+    100% {
+      width: $medida-max;
+      background: linear-gradient(to right, black, gold, red); } }
+  
+  @keyframes desplazar2 {
+    0% {
+      width: 0px; }
+    25% {
+      width: 100px; }
+    50% {
+      width: 200px;
+      background-color: white; }
+    75% {
+      width: 300px; }
+    100% {
+      width: ($medida-max)-50;
+      background: linear-gradient(to right, blue, white, red); } }
+  
+  @keyframes desplazar3 {
+    0% {
+      width: 0px; }
+    25% {
+      width: 100px; }
+    50% {
+      width: 200px;
+      background-color: yellow; }
+    75% {
+      width: 300px; }
+    100% {
+      width: ($medida-max)-100;
+      background: linear-gradient(to right, green, yellow, blue); } }
+  
+  @keyframes desplazar4 {
+    0% {
+      width: 0px; }
+    25% {
+      width: 100px; }
+    50% {
+      width: 200px;
+      background-color: red; }
+    75% {
+      width: 250px; }
+    100% {
+      width: ($medida-max)-150;
+      background: linear-gradient(to right, white, red, white); } }
+  
+  @keyframes desplazar5 {
+    0% {
+      width: 0px; }
+    25% {
+      width: 100px; }
+    50% {
+      width: 200px;
+      background-color: red; }
+    75% {
+      width: 250px; }
+    100% {
+      width: ($medida-max)-200;
+      background: linear-gradient(to right, red, green); } }
+  
+  @keyframes desplazar6 {
+    0% {
+      width: 0px; }
+    25% {
+      width: 100px; }
+    50% {
+      width: 200px;
+      background-color: red; }
+    75% {
+      width: 225px; }
+    100% {
+      width: ($medida-max/2)+22;
+      background: linear-gradient(to right, red, yellow, red); } }
+  
+  @keyframes desplazar7 {
+    0% {
+      width: 0px; }
+    25% {
+      width: 100px; }
+    50% {
+      width: 200px;
+      background-color: white; }
+    75% {
+      width: 225px; }
+    100% {
+      width: ($medida-max/2)+14;
+      background: linear-gradient(to right, green, white, red); } }
+  
+  @keyframes desplazar8 {
+    0% {
+      width: 0px; }
+    25% {
+      width: 100px; }
+    50% {
+      width: 200px;
+      background-color: white; }
+    75% {
+      width: 225px; }
+    100% {
+      width: ($medida-max/2)+13;
+      background: linear-gradient(to right, #4CA3DD, white, #4CA3DD); } }
+  
+  @keyframes desplazar9 {
+    0% {
+      width: 0px; }
+    25% {
+      width: 100px; }
+    50% {
+      width: 200px;
+      background-color: white; }
+    75% {
+      width: 225px; }
+    100% {
+      width: ($medida-max/2)+10;
+      background: linear-gradient(to right, blue, white, blue); } }
+  
+  @keyframes desplazar10 {
+    0% {
+      width: 0px; }
+    25% {
+      width: 100px; }
+    50% {
+      width: 200px;
+      background-color: white; }
+    75% {
+      width: 225px; }
+    100% {
+      width: $medida-max/2;
+      background: linear-gradient(to right, red, white, red); } }

@@ -1,0 +1,1059 @@
+/* FORMULARIOS */
+.estiloFormDt,
+.estiloForm {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black; }
+
+/* HTML CONTACTO */
+#seccionContacto {
+  width: 250px;
+  margin: auto; }
+
+.estiloFormDt select,
+.estiloForm select {
+  width: 250px;
+  height: 30px;
+  border: 3px solid grey;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  color: #333; }
+
+.estiloFormDt .nacion,
+.estiloFormDt .proced {
+  margin: 20px;
+  margin-left: 80px; }
+
+.estiloFormDt .edad {
+  margin: 20px;
+  margin-left: 135px; }
+
+.estiloFormDt .estilo {
+  margin: 20px 60px; }
+
+.estiloFormDt .formacion {
+  margin: 20px 24px; }
+
+.estiloForm .nacion,
+.estiloForm .proced {
+  margin: 20px;
+  margin-left: 80px; }
+
+.estiloForm .posicion {
+  margin: 20px;
+  margin-left: 108px; }
+
+.estiloForm .posicionDet {
+  margin: 20px 38px; }
+
+.estiloForm .edad {
+  margin: 20px;
+  margin-left: 135px; }
+
+.estiloForm .pierna {
+  margin: 20px 82px; }
+
+form {
+  padding: 20px; }
+
+.limpiar {
+  background-color: yellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  width: 80px;
+  height: 30px; }
+
+.enviar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  width: 80px;
+  height: 30px; }
+
+.niveles {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px; }
+
+.nivel {
+  border: 2px solid black;
+  height: 30px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder; }
+
+.nivel-1 {
+  width: 100px;
+  background-color: #4d4d4d; }
+
+.nivel-2 {
+  width: 200px;
+  background-color: #333333; }
+
+.nivel-3 {
+  width: 300px;
+  background-color: #1a1a1a; }
+
+.table-jugadores {
+  cursor: pointer; }
+
+.contenido-scout {
+  float: right;
+  margin: 50px; }
+
+.contenido-scout-dt img {
+  width: 650px;
+  float: right;
+  margin: 50px; }
+
+/* HTML COPALIGA - TABLAS */
+table {
+  width: 400px;
+  background-color: rgba(128, 128, 128, 0.1);
+  color: black;
+  margin: 20px 0px; }
+
+tr th {
+  background-color: darkslategray; }
+
+table, th, td {
+  border: 1px solid black;
+  padding: 5px; }
+
+.clubesClasif {
+  background-color: green; }
+
+.posResultado {
+  text-align: center; }
+
+.equipo {
+  width: 150px; }
+
+.goles {
+  font-size: 12px; }
+
+.seccionPartidos .goles li {
+  list-style-type: circle;
+  font-size: 12px; }
+
+.tele {
+  width: 20px; }
+
+.seccionPartidos {
+  width: 380px;
+  margin: auto; }
+
+.equipoCampeonArg {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+  color: white;
+  background: radial-gradient(ellipse, red, black); }
+
+.equipoCampeonIng {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+  color: white;
+  background: radial-gradient(ellipse, #195cb3, white); }
+
+.equipoCampeonEsp {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+  color: white;
+  background: radial-gradient(ellipse, red, blue, white); }
+
+.equipoCampeonIta {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+  color: white;
+  background: radial-gradient(ellipse, black, blue); }
+
+.equipoCampeonAle {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+  color: white;
+  background: radial-gradient(ellipse, white, red); }
+
+.contenido-posiciones {
+  display: inline-block;
+  margin: 20px 10px 5px 150px; }
+
+/* HTML IFRAME PARTIDOS */
+.seccionVideo {
+  width: 500px; }
+
+/* HTML COPA AMERICA - IMG GUIA */
+.avisosPerfil img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  margin-top: 10px; }
+
+.avisosPerfil {
+  margin: 50px auto;
+  border: 2px solid gray;
+  width: 150px;
+  text-align: center; }
+
+h5 {
+  font-size: 0.83em;
+  font-weight: bold;
+  margin-top: 10px;
+  color: black; }
+
+.avisosPerfil:hover {
+  border: 4px solid white;
+  cursor: pointer; }
+
+/* HTML GRIDS */
+.encabezado {
+  margin: 20px; }
+
+.encabezado__logoPrincipal {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 10px;
+  margin-right: 250px;
+  margin-left: 50px; }
+
+/* Padre */
+.contenedor {
+  width: 90%;
+  margin: 1.6em auto;
+  background: rgba(47, 79, 79, 0.5);
+  display: grid;
+  /* definir cantidad de columnas */
+  grid-template-columns: repeat(5, 2fr);
+  /* definir cantidad de filas */
+  grid-template-rows: 0.1fr 2fr 0.1fr 0.8fr 0.1fr 1fr;
+  /* acomodar areas */
+  grid-template-areas: "box1 box1 box1 box1 box1" "box2 box2 box2 box4 box4" "box3 box3 box3 box3 box3" "box6 box7 box8 box5 box15" "box9 box9 box9 box9 box9" "box10 box11 box12 box13 box14";
+  /* separar cajas */
+  gap: 5px;
+  /* Hijo */ }
+  .contenedor div {
+    border: 2px solid black; }
+  .contenedor h2 {
+    text-align: center; }
+  .contenedor h3 {
+    margin: 1%;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold; }
+  .contenedor p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    margin: 5px; }
+
+/* definir cada area */
+.contenedor__gridUno {
+  grid-area: box1;
+  background: darkslategray;
+  color: black; }
+
+.contenedor__gridDos {
+  grid-area: box2; }
+
+.contenedor__gridTres {
+  grid-area: box3; }
+
+.contenedor__gridCuatro {
+  grid-area: box4; }
+
+.contenedor__gridCinco {
+  grid-area: box5; }
+
+.contenedor__gridSeis {
+  grid-area: box6; }
+
+.contenedor__gridSiete {
+  grid-area: box7; }
+
+.contenedor__gridOcho {
+  grid-area: box8; }
+
+.contenedor__gridNueve {
+  grid-area: box9;
+  background: #264726; }
+
+.contenedor__gridDiez {
+  grid-area: box10; }
+
+.contenedor__gridOnce {
+  grid-area: box11; }
+
+.contenedor__gridDoce {
+  grid-area: box12; }
+
+.contenedor__gridTrece {
+  grid-area: box13; }
+
+.contenedor__gridCatorce {
+  grid-area: box14; }
+
+.contenedor__gridQuince {
+  grid-area: box15; }
+
+/* IMAGENES */
+.contenedor__gridOcho img,
+.contenedor__gridDiez img,
+.contenedor__gridOnce img,
+.contenedor__gridDoce img,
+.contenedor__gridTrece img,
+.contenedor__gridCatorce img,
+.contenedor__gridQuince img {
+  width: 90%;
+  margin: 10px 5px;
+  padding: 10px;
+  height: 150px;
+  transition: all 2s; }
+
+.contenedor__gridCinco img {
+  width: 80%;
+  height: 150px;
+  margin: 10px 5px 10px 20px;
+  padding: 15px; }
+
+.contenedor__gridCinco p,
+.contenedor__gridQuince p {
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold; }
+
+.contenedor__gridSeis li {
+  text-align: start;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+/* PALMARES */
+.contenedor__gridCuatro li,
+.contenedor__gridSiete li {
+  list-style-position: inside;
+  text-align: start;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.contenedor__gridCuatro ul {
+  margin: 20%;
+  margin-top: 5%; }
+  .contenedor__gridCuatro ul li {
+    padding: 15px; }
+
+.bandera {
+  width: 20px; }
+
+.contenedor__gridDos p {
+  padding: 10px; }
+
+.contenedor__gridTres a:hover {
+  color: white; }
+
+.contenedor__gridDiez img:hover,
+.contenedor__gridOnce img:hover,
+.contenedor__gridDoce img:hover,
+.contenedor__gridTrece img:hover,
+.contenedor__gridCatorce img:hover {
+  transform: scale(2, 2);
+  cursor: zoom-in; }
+
+/* RESPONSIVE */
+/* TABLET */
+@media only screen and (max-width: 768px) {
+  .contenedor {
+    grid-template-areas: "box1 box1 box1 box1 box1" "box2 box2 box2 box2 box2" "box4 box4 box4 box4 box4" "box3 box3 box3 box3 box3" "box6 box7 box8 box5 box15" "box9 box9 box9 box9 box9" "box10 box11 box12 box13 box14";
+    grid-template-rows: 0.01fr 0.5fr 1fr 0.1fr 0.1fr 0.1fr 0.5fr;
+    width: 100%; } }
+
+/* DESKTOP */
+@media only screen and (min-width: max-width 1024px) {
+  .contenedor {
+    grid-template-areas: "box1 box1 box1 box1 box1" "box2 box2 box2 box4 box4" "box3 box3 box3 box3 box3" "box6 box7 box8 box5 box15" "box9 box9 box9 box9 box9" "box10 box11 box12 box13 box14";
+    width: 90%; } }
+
+/* HTML COPA AMERICA/EUROCOPA - BOX MODEL */
+.seleccionBox {
+  margin: 50px 10px 5px 70px;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid black; }
+
+.seleccionBox table {
+  width: 500px; }
+
+.seleccionBox table tr th {
+  text-align: center; }
+
+.seleccionBox table tr td {
+  font-size: 1em; }
+
+.logoEuro {
+  width: 150px;
+  height: 100px; }
+
+.banderaPais {
+  width: 40%;
+  height: 40px;
+  margin-left: 8px;
+  margin-top: 5px; }
+
+/*---> CUADROS DE FASES */
+.cuadroOctavos p,
+.cuadroCuartos p,
+.cuadroSemis2 p,
+.cuadroSemisCopaAm p,
+.cuadroFinal,
+.cuadroFinalCopaAm {
+  font-size: 12px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center; }
+
+.resultado {
+  border: 1px solid black;
+  margin: 15px 30px;
+  width: 50%;
+  background: rosybrown; }
+
+.cuadroFinalCopaAm,
+.cuadroSemisCopaAm,
+.cuadroCuartosCopaAm,
+.cuadroOctavos,
+.cuadroCuartos,
+.cuadroSemis1,
+.cuadroSemis2,
+.cuadroFinal {
+  width: 130px;
+  height: 100px;
+  border: 3px solid black;
+  margin: 20px; }
+
+.cuadroCuartos {
+  position: relative;
+  top: 80px; }
+
+.cuadroSemis1 {
+  visibility: hidden; }
+
+.cuadroSemis2 {
+  position: relative;
+  bottom: 70px; }
+
+.cuadroFinal {
+  position: relative;
+  bottom: 100px; }
+
+.cuadroSemisCopaAm {
+  position: relative;
+  top: 75px; }
+
+.cuadroFinalCopaAm {
+  position: relative;
+  top: 220px; }
+
+.parte1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.parte2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
+/* HTML SECCION COPA AMERICA - FLEXBOX  */
+.imgPaises img {
+  width: 100px;
+  height: 100px; }
+
+.imgPaises .detPais {
+  border: 1px solid gray;
+  padding: 5px; }
+
+.imgPaises {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.imgPaises .detPais:hover {
+  border: 1px solid white; }
+
+.detPais h5 {
+  text-align: center; }
+
+.equipoCampeonSeleccion {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+  color: white;
+  width: 100px;
+  margin: 0 auto; }
+  .equipoCampeonSeleccion img {
+    width: 100px;
+    margin-bottom: 5px; }
+
+.contenido-copa-america {
+  display: inline-block; }
+  .contenido-copa-america #img-copa-america {
+    width: 600px; }
+
+.foto-copa-america {
+  position: relative;
+  bottom: 200px;
+  left: 50px; }
+
+@media only screen and (max-width: 768px) {
+  .contenido-copa-america {
+    display: block; }
+  .foto-copa-america {
+    position: static; } }
+
+/* HTML SECCION EQUIPOS ARGENTINOS - FLEXBOX  */
+.imgEquipos img {
+  width: 200px;
+  height: 200px; }
+
+.imgEquipos .detEquipo {
+  border: 5px solid gray;
+  padding: 5px;
+  opacity: .5; }
+
+.imgEquipos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.imgEquipos .detEquipo:hover {
+  opacity: 1;
+  border: 5px solid white; }
+
+/* RANKING HTML */
+.barraPuntos {
+  margin: 50px 30px; }
+
+.barraPuntos h4 {
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  background: none;
+  margin-top: 5px; }
+
+.barraPuntos img {
+  width: 50px;
+  height: 40px;
+  margin: -10px 15px 30px 20px; }
+
+.barra10 img {
+  margin-left: 10px; }
+
+.fifa {
+  width: 150px;
+  margin: 0 auto; }
+  .fifa img {
+    width: 150px; }
+  .fifa h4 {
+    margin-top: 30px; }
+
+.barra1,
+.barra2,
+.barra3,
+.barra4,
+.barra5,
+.barra6,
+.barra7,
+.barra8,
+.barra9,
+.barra10 {
+  display: flex; }
+
+.tran1 {
+  width: 1px;
+  height: 30px;
+  font-weight: bold;
+  background-color: black;
+  animation-name: desplazar;
+  animation-iteration-count: 1s;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-left: 53px;
+  text-align: right;
+  padding: 5px 5px; }
+
+.tran2 {
+  width: 1px;
+  height: 30px;
+  font-weight: bold;
+  background-color: blue;
+  animation-name: desplazar2;
+  animation-iteration-count: 1s;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-left: 53px;
+  text-align: right;
+  padding: 5px 5px; }
+
+.tran3 {
+  width: 1px;
+  height: 30px;
+  font-weight: bold;
+  background-color: green;
+  animation-name: desplazar3;
+  animation-iteration-count: 1s;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-left: 65px;
+  text-align: right;
+  padding: 5px 5px; }
+
+.tran4 {
+  width: 1px;
+  height: 30px;
+  font-weight: bold;
+  background-color: white;
+  animation-name: desplazar4;
+  animation-iteration-count: 1s;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-left: 20px;
+  text-align: right;
+  padding: 5px 5px; }
+
+.tran5 {
+  width: 1px;
+  height: 30px;
+  font-weight: bold;
+  background-color: red;
+  animation-name: desplazar5;
+  animation-iteration-count: 1s;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-left: 33px;
+  text-align: right;
+  padding: 5px 5px; }
+
+.tran6 {
+  width: 1px;
+  height: 30px;
+  font-weight: bold;
+  background-color: red;
+  animation-name: desplazar6;
+  animation-iteration-count: 1s;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-left: 58px;
+  text-align: right;
+  padding: 5px 5px; }
+
+.tran7 {
+  width: 1px;
+  height: 30px;
+  font-weight: bold;
+  background-color: green;
+  animation-name: desplazar7;
+  animation-iteration-count: 1s;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-left: 72px;
+  text-align: right;
+  padding: 5px 5px; }
+
+.tran8 {
+  width: 1px;
+  height: 30px;
+  font-weight: bold;
+  background-color: #4CA3DD;
+  animation-name: desplazar8;
+  animation-iteration-count: 1s;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-left: 26px;
+  text-align: right;
+  padding: 5px 5px; }
+
+.tran9 {
+  width: 1px;
+  height: 30px;
+  font-weight: bold;
+  background-color: blue;
+  animation-name: desplazar9;
+  animation-iteration-count: 1s;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-left: 41px;
+  text-align: right;
+  padding: 5px 5px; }
+
+.tran10 {
+  width: 1px;
+  height: 30px;
+  font-weight: bold;
+  background-color: red;
+  animation-name: desplazar10;
+  animation-iteration-count: 1s;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-left: 23px;
+  text-align: right;
+  padding: 5px 5px; }
+
+/* ANIMACIONES */
+@keyframes desplazar {
+  0% {
+    width: 0px; }
+  25% {
+    width: 100px; }
+  50% {
+    width: 200px;
+    background-color: gold; }
+  75% {
+    width: 300px; }
+  100% {
+    width: 500px;
+    background: linear-gradient(to right, black, gold, red); } }
+
+@keyframes desplazar2 {
+  0% {
+    width: 0px; }
+  25% {
+    width: 100px; }
+  50% {
+    width: 200px;
+    background-color: white; }
+  75% {
+    width: 300px; }
+  100% {
+    width: 450px;
+    background: linear-gradient(to right, blue, white, red); } }
+
+@keyframes desplazar3 {
+  0% {
+    width: 0px; }
+  25% {
+    width: 100px; }
+  50% {
+    width: 200px;
+    background-color: yellow; }
+  75% {
+    width: 300px; }
+  100% {
+    width: 400px;
+    background: linear-gradient(to right, green, yellow, blue); } }
+
+@keyframes desplazar4 {
+  0% {
+    width: 0px; }
+  25% {
+    width: 100px; }
+  50% {
+    width: 200px;
+    background-color: red; }
+  75% {
+    width: 250px; }
+  100% {
+    width: 350px;
+    background: linear-gradient(to right, white, red, white); } }
+
+@keyframes desplazar5 {
+  0% {
+    width: 0px; }
+  25% {
+    width: 100px; }
+  50% {
+    width: 200px;
+    background-color: red; }
+  75% {
+    width: 250px; }
+  100% {
+    width: 300px;
+    background: linear-gradient(to right, red, green); } }
+
+@keyframes desplazar6 {
+  0% {
+    width: 0px; }
+  25% {
+    width: 100px; }
+  50% {
+    width: 200px;
+    background-color: red; }
+  75% {
+    width: 225px; }
+  100% {
+    width: 272px;
+    background: linear-gradient(to right, red, yellow, red); } }
+
+@keyframes desplazar7 {
+  0% {
+    width: 0px; }
+  25% {
+    width: 100px; }
+  50% {
+    width: 200px;
+    background-color: white; }
+  75% {
+    width: 225px; }
+  100% {
+    width: 264px;
+    background: linear-gradient(to right, green, white, red); } }
+
+@keyframes desplazar8 {
+  0% {
+    width: 0px; }
+  25% {
+    width: 100px; }
+  50% {
+    width: 200px;
+    background-color: white; }
+  75% {
+    width: 225px; }
+  100% {
+    width: 263px;
+    background: linear-gradient(to right, #4CA3DD, white, #4CA3DD); } }
+
+@keyframes desplazar9 {
+  0% {
+    width: 0px; }
+  25% {
+    width: 100px; }
+  50% {
+    width: 200px;
+    background-color: white; }
+  75% {
+    width: 225px; }
+  100% {
+    width: 260px;
+    background: linear-gradient(to right, blue, white, blue); } }
+
+@keyframes desplazar10 {
+  0% {
+    width: 0px; }
+  25% {
+    width: 100px; }
+  50% {
+    width: 200px;
+    background-color: white; }
+  75% {
+    width: 225px; }
+  100% {
+    width: 250px;
+    background: linear-gradient(to right, red, white, red); } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* CUERPO */
+body {
+  background-image: url(../img/pool_table.png);
+  font-family: Arial, Helvetica, sans-serif;
+  color: black; }
+
+/* TITULOS */
+.logoPrincipal {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 10px;
+  margin-right: 250px;
+  margin-left: 50px; }
+
+h1, h2 {
+  margin: 30px;
+  font-weight: bold;
+  font-size: 1.5em; }
+
+h4 {
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  background-color: darkslategray;
+  font-size: 1em;
+  font-weight: bold; }
+
+a {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  text-decoration: none; }
+
+.carousel-portada {
+  height: 750px; }
+
+/* MENU DESPLEGABLE */
+nav {
+  font-size: 14px; }
+
+.nav-index {
+  font-size: 14px;
+  position: relative;
+  bottom: 750px;
+  z-index: 1; }
+
+ul ul li {
+  width: 250px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black; }
+
+/* para desplegar sub-menu sin clickear */
+ul li:hover ul {
+  display: block; }
+
+.menu-boot:hover {
+  color: white;
+  border-bottom: 5px solid black; }
+
+.submenu-boot {
+  background: #233b3b; }
+
+.submenu-boot li a {
+  color: white; }
+
+.submenu-boot li a:hover {
+  color: gray; }
+
+/* IMAGENES INDEX */
+.iconosIndex {
+  width: 15px; }
+
+.logoPelota {
+  background-color: white;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+  right: 5px;
+  bottom: 5px;
+  animation: animacion 3s linear 0s alternate;
+  transition: all 2s ease; }
+
+.logoPelota:hover {
+  transform: rotate(360deg); }
+
+/*----- ANIMACION PELOTA -------*/
+@keyframes animacion {
+  from { }
+  to {
+    transform: rotate(360deg); } }
+
+/* FOOTER */
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .contacto .seccion-contacto {
+    padding: 0.5rem; }
+
+.susc-opciones {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Roboto', sans-serif; }
+
+.pie a:hover {
+  color: white; }
+
+footer .redes i {
+  font-size: 1.2rem; }
+
+.pie {
+  background-color: rgba(47, 79, 79, 0.8);
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 75px; }
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none; }
+  .redes a {
+    color: rgba(255, 255, 255, 0.5); }
+  .redes li {
+    padding: 0.5rem; }
+
+#nombreCreador {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px; }
+
+.barra-div {
+  border-bottom: 5px solid rgba(255, 255, 255, 0.1);
+  width: 50%;
+  margin: 0 auto; }
+
+/* VOLVER/ARRIBA */
+.footer__volver,
+.footer__arriba {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid black;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 1s; }
+
+.footer__volver:hover,
+.footer__arriba:hover {
+  background-color: darkslategray; }
+
+.footer__volver a:hover,
+.footer__arriba a:hover {
+  color: black; }
+
+.footer__arriba i,
+.footer__volver i {
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 5px; }
+
+@media only screen and (max-width: 768px) {
+  .pie {
+    padding: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center; }
+  .redes {
+    margin-top: 30px; }
+  footer .redes i {
+    font-size: 1rem;
+    background-color: black;
+    border-radius: 50%;
+    padding: 11px;
+    position: relative;
+    right: 15px; }
+  footer .redes #logo-facebook {
+    padding: 13px; }
+  .logoPrincipal {
+    margin: 0 auto; } }

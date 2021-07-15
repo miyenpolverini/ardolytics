@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estadísticas sobre los Equipos del Fútbol Argentino">
+    <meta name="keywords"
+        content="Ojeadores, Scouting, Fútbol, Scout, Busqueda, Jugadores, Directores técnicos, Equipos Fútbol Argentino">
+    <!-- Logo pagina -->
+    <link rel="icon" type="image/png" href="../iconos/favicon_io/favicon-32x32.png">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>arDOLytics - Equipos del Fútbol Argentino</title>
+</head>
+
+<body>
+    <header>
+        <!-- MENU -->
+        <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: rgba(47, 79, 79,.8);"
+            id="arriba">
+            <div class="container-fluid">
+                <a class="navbar-brand logoPrincipal text-light" href="../index.html">arD<img class="logoPelota"
+                        src="../img/pelota-de-futbol.png" alt="logo pelota">Lytics</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="active dropdown-toggle menu-boot m-4" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">OJEADORES
+                            </a>
+                            <ul class="dropdown-menu submenu-boot p-3" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <img class="iconosIndex" src="../iconos/jugador-de-futbol.png" alt="logo jugadores">
+                                    <a href="jugadores.html">Jugadores</a>
+                                </li>
+                                <li>
+                                    <img class="iconosIndex" src="../iconos/hombre-de-traje-y-corbata.png"
+                                        alt="logo dt">
+                                    <a href="dt.html">Directores técnicos</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="active dropdown-toggle menu-boot m-4" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">LIGAS
+                            </a>
+                            <ul class="dropdown-menu submenu-boot p-3" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <img class="iconosIndex" src="../iconos/argentina.svg" alt="logo argentina">
+                                    <a href="copaliga.html">Copa de la Liga Profesional</a>
+                                </li>
+                                <li>
+                                    <img class="iconosIndex" src="../iconos/inglaterra.svg" alt="logo inglaterra">
+                                    <a href="premier.html">Premier League</a>
+                                </li>
+                                <li>
+                                    <img class="iconosIndex" src="../iconos/espana.svg" alt="logo españa">
+                                    <a href="laliga.html">La Liga</a>
+                                </li>
+                                <li>
+                                    <img class="iconosIndex" src="../iconos/italia.svg" alt="logo italia">
+                                    <a href="seriea.html">Serie A</a>
+                                </li>
+                                <li>
+                                    <img class="iconosIndex" src="../iconos/alemania.svg" alt="logo alemania">
+                                    <a href="bundesliga.html">Bundesliga</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="active dropdown-toggle menu-boot m-4" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">COPAS
+                            </a>
+                            <ul class="dropdown-menu submenu-boot p-3" aria-labelledby="navbarDropdown">
+                                <li><a href="copaamerica.html">Copa América</a></li>
+                                <li><a href="eurocopa.html">Eurocopa</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="active dropdown-toggle menu-boot m-4" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">EQUIPOS
+                            </a>
+                            <ul class="dropdown-menu submenu-boot p-3" aria-labelledby="navbarDropdown">
+                                <li><a href="equiposargentina.html">Argentina</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="active dropdown-toggle menu-boot m-4" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">SELECCIONES
+                            </a>
+                            <ul class="dropdown-menu submenu-boot p-3" aria-labelledby="navbarDropdown">
+                                <li><a href="ranking.html">Ranking FIFA</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="animate__animated animate__bounceInLeft">EQUIPOS - FÚTBOL ARGENTINO</h1>
+        </section>
+        <!-- IMAGENES EQUIPOS -->
+        <section class="imgEquipos">
+            <div class="detEquipo">
+                <img src="../img/escudosArg/aldosivi.png" alt="">
+                <h4>Aldosivi</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/aaaj.svg" alt="">
+                <h4>Argentinos Juniors</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/arsenal.png" alt="">
+                <h4>Arsenal</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/atltuc.svg" alt="">
+                <h4>Atlético Tucuman</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/banfield.png" alt="">
+                <h4>Banfield</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/boca.png" alt="">
+                <h4>Boca Juniors</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/ccba.svg" alt="">
+                <h4>Central Cordoba (Sde)</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/colon.png" alt="">
+                <h4>Colon</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/defensa.svg" alt="">
+                <h4>Defensa y Justicia</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/estudiantes.png" alt="">
+                <h4>Estudiantes (LP)</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/gimnasia.png" alt="">
+                <h4>Gimnasia (LP)</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/godoy.png" alt="">
+                <h4>Godoy Cruz</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/huracan.png" alt="">
+                <h4>Huracan</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/independiente.png" alt="">
+                <h4>Independiente</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/lanus.png" alt="">
+                <h4>Lanus</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/newells.png" alt="">
+                <h4>Newells</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/patron.png" alt="">
+                <h4>Patronato</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/platense.png" alt="">
+                <h4>Platense</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/racing.svg" alt="">
+                <h4>Racing Club</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/river.png" alt="">
+                <h4>River Plate</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/central.png" alt="">
+                <h4>Rosario Central</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/casla.png" alt="">
+                <h4>San Lorenzo</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/sarmiento.png" alt="">
+                <h4>Sarmiento (J)</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/talleres.png" alt="">
+                <h4>Talleres (C)</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/union.png" alt="">
+                <h4>Union</h4>
+            </div>
+            <div class="detEquipo">
+                <img src="../img/escudosArg/velez.png" alt="">
+                <h4>Velez Sarsfield</h4>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__arriba">
+            <a href="#arriba"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

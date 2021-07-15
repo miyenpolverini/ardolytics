@@ -1,0 +1,94 @@
+
+/* HTML COPALIGA - TABLAS */
+table{
+    width: 400px;
+    background-color:rgba(128, 128, 128,.10);
+    color: black;
+    margin: 20px 0px;
+}
+
+tr th{
+    background-color:darkslategray;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.clubesClasif{
+    background-color: green;
+}
+
+.posResultado{
+    text-align: center;
+}
+
+.equipo{
+    width: 150px;
+}
+
+.goles{
+    font-size: 12px;
+}
+
+.seccionPartidos .goles li{
+    list-style-type: circle;
+    font-size: 12px; 
+}
+
+.tele{
+    width: 20px;
+}
+
+.seccionPartidos{
+    width: 380px;
+    margin: auto;
+}
+
+.equipoCampeonArg{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    color: white;
+    background: radial-gradient(ellipse, red, black );
+}
+
+.equipoCampeonIng{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    color: white;
+    background: radial-gradient(ellipse, rgb(25, 92, 179), white);
+}
+.equipoCampeonEsp{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    color: white;
+    background: radial-gradient(ellipse, red, blue, white);
+}
+.equipoCampeonIta{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    color: white;
+    background: radial-gradient(ellipse, black, blue );
+}
+.equipoCampeonAle{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    color: white;
+    background: radial-gradient(ellipse, white, red );
+}
+
+.contenido-posiciones{
+    display: inline-block;
+    margin: 20px 10px 5px 150px;
+}
+
+/* HTML IFRAME PARTIDOS */
+.seccionVideo{
+    width: 500px;
+}

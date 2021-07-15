@@ -1,0 +1,25 @@
+/* HTML SECCION EQUIPOS ARGENTINOS - FLEXBOX  */
+
+.imgEquipos img{
+    width: 200px;
+    height: 200px;
+}
+
+.imgEquipos .detEquipo{
+    border: 5px solid gray;
+    padding: 5px;
+    opacity: .5;
+}
+
+.imgEquipos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgEquipos .detEquipo:hover{
+    opacity: 1;
+    border: 5px solid white ;
+}

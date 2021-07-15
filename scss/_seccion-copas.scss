@@ -1,0 +1,161 @@
+/* HTML COPA AMERICA/EUROCOPA - BOX MODEL */
+.seleccionBox{
+    margin: 50px 10px 5px 70px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.seleccionBox table{
+    width: 500px;
+}
+.seleccionBox table tr th{
+    text-align: center;
+}
+.seleccionBox table tr td{
+    font-size: 1em;
+}
+
+.logoEuro{
+    width: 150px;
+    height: 100px;
+}
+.banderaPais{
+    width: 40%;
+    height: 40px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+/*---> CUADROS DE FASES */
+.cuadroOctavos p,
+.cuadroCuartos p,
+.cuadroSemis2  p,
+.cuadroSemisCopaAm p,
+.cuadroFinal,
+.cuadroFinalCopaAm{
+    font-size: 12px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.resultado{
+    border: 1px solid black;
+    margin: 15px 30px;
+    width: 50%;
+    background:rosybrown;
+
+}
+.cuadroFinalCopaAm,
+.cuadroSemisCopaAm,
+.cuadroCuartosCopaAm,
+.cuadroOctavos,
+.cuadroCuartos,
+.cuadroSemis1,
+.cuadroSemis2,
+.cuadroFinal{ 
+    width: 130px;
+    height: 100px;
+    border: 3px solid black;
+    margin: 20px;
+}
+.cuadroCuartos{
+    position: relative;
+    top: 80px;
+}
+.cuadroSemis1{
+    visibility: hidden;
+}
+.cuadroSemis2{
+    position: relative;
+    bottom: 70px;
+}
+.cuadroFinal{
+    position: relative;
+    bottom: 100px;
+}
+.cuadroSemisCopaAm{
+    position: relative;
+    top: 75px;
+}
+.cuadroFinalCopaAm{
+    position: relative;
+    top: 220px;
+}
+
+.parte1{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.parte2{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+/* HTML SECCION COPA AMERICA - FLEXBOX  */
+
+.imgPaises img{
+    width: 100px;
+    height: 100px;
+}
+
+.imgPaises .detPais{
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.imgPaises{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgPaises .detPais:hover{
+    border: 1px solid white ;
+}
+
+.detPais h5{
+    text-align: center;
+}
+
+.equipoCampeonSeleccion{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    color: white;
+    width: 100px;
+    margin:0 auto;
+    img{
+        width: 100px;
+        margin-bottom: 5px;
+    }   
+}
+
+.contenido-copa-america{
+    display: inline-block;
+    #img-copa-america{
+    width: 600px;
+    }
+}
+
+.foto-copa-america{
+   position: relative;
+   bottom: 200px;
+   left: 50px;
+}
+
+@media only screen and (max-width: 768px){
+    .contenido-copa-america{
+        display:block;
+    }
+    .foto-copa-america{
+        position:static;
+     }
+
+
+}

@@ -1,0 +1,239 @@
+/* HTML COPA AMERICA - IMG GUIA */
+.avisosPerfil img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    margin-top: 10px;
+}
+
+.avisosPerfil {
+    margin:50px auto;
+    border: 2px solid gray;
+    width: 150px;
+    text-align: center;
+    }
+
+h5{
+    font-size: 0.83em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+}
+
+.avisosPerfil:hover{
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+/* HTML GRIDS */
+.encabezado{
+    margin: 20px;
+}
+.encabezado__logoPrincipal{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    margin-right: 250px;
+    margin-left: 50px;  
+}
+
+/* Padre */
+.contenedor{
+    width: 90%;
+    margin: 1.6em auto;
+    background:rgba(47, 79, 79,.5);
+    display: grid;
+    /* definir cantidad de columnas */
+    grid-template-columns: repeat(5, 2fr);
+    /* definir cantidad de filas */
+    grid-template-rows: 0.1fr 2fr 0.1fr 0.8fr 0.1fr 1fr;
+    /* acomodar areas */
+    grid-template-areas: 
+        "box1 box1 box1 box1 box1"
+        "box2 box2 box2 box4 box4"
+        "box3 box3 box3 box3 box3"
+        "box6 box7 box8 box5 box15"
+        "box9 box9 box9 box9 box9"
+        "box10 box11 box12 box13 box14";
+    /* separar cajas */
+    gap: 5px;
+    /* Hijo */
+    div{
+        border: 2px solid black;  
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        margin: 1%;
+        font-size: 0.9rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    p{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.9rem;
+        margin: 5px;
+    }
+}
+
+
+
+/* definir cada area */
+.contenedor__gridUno{
+    grid-area: box1;
+    background:darkslategray;
+    color: black;
+}
+.contenedor__gridDos{
+    grid-area: box2;
+}
+.contenedor__gridTres{
+    grid-area: box3;
+}
+.contenedor__gridCuatro{
+    grid-area: box4;
+}
+.contenedor__gridCinco{
+    grid-area: box5;
+}
+.contenedor__gridSeis{
+    grid-area: box6;
+}
+.contenedor__gridSiete{
+    grid-area: box7;
+}
+.contenedor__gridOcho{
+    grid-area: box8;
+}
+.contenedor__gridNueve{
+    grid-area: box9;
+    background:rgb(38, 71, 38);
+}
+.contenedor__gridDiez{
+    grid-area: box10;
+}
+.contenedor__gridOnce{
+    grid-area: box11;
+}
+.contenedor__gridDoce{
+    grid-area: box12;
+}
+.contenedor__gridTrece{
+    grid-area: box13;
+}
+.contenedor__gridCatorce{
+    grid-area: box14;
+}
+.contenedor__gridQuince{
+    grid-area: box15;
+}
+
+/* IMAGENES */
+
+
+.contenedor__gridOcho img,
+.contenedor__gridDiez img,
+.contenedor__gridOnce img,
+.contenedor__gridDoce img,
+.contenedor__gridTrece img,
+.contenedor__gridCatorce img,
+.contenedor__gridQuince img{
+    width: 90%;
+     margin: 10px 5px;
+     padding: 10px;
+     height: 150px;
+     transition: all 2s;
+ }
+.contenedor__gridCinco img{
+    width: 80%;
+    height: 150px;
+    margin: 10px 5px 10px 20px;
+    padding: 15px;
+   
+}
+
+.contenedor__gridCinco p,
+.contenedor__gridQuince p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenedor__gridSeis li{
+    text-align:start;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* PALMARES */
+
+.contenedor__gridCuatro li,
+.contenedor__gridSiete li{
+    list-style-position:inside;
+    text-align:start;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor__gridCuatro ul{
+    margin: 20%;
+    margin-top: 5%;
+    li{
+        padding: 15px;
+    }
+}
+
+.bandera{
+    width: 20px;
+}
+
+.contenedor__gridDos p{
+    padding: 10px;
+}
+
+.contenedor__gridTres a:hover{
+    color: white;
+}
+
+.contenedor__gridDiez img:hover,
+.contenedor__gridOnce img:hover,
+.contenedor__gridDoce img:hover,
+.contenedor__gridTrece img:hover,
+.contenedor__gridCatorce img:hover{
+    transform: scale(2, 2);
+    cursor: zoom-in;
+}
+
+
+/* RESPONSIVE */
+/* TABLET */
+@media only screen and (max-width: 768px) {
+    .contenedor{
+        grid-template-areas: 
+        "box1 box1 box1 box1 box1"
+        "box2 box2 box2 box2 box2"
+        "box4 box4 box4 box4 box4"
+        "box3 box3 box3 box3 box3"
+        "box6 box7 box8 box5 box15"
+        "box9 box9 box9 box9 box9"
+        "box10 box11 box12 box13 box14";
+        grid-template-rows: 0.01fr 0.5fr 1fr 0.1fr 0.1fr 0.1fr 0.5fr;
+        width: 100%;
+    }
+}
+/* DESKTOP */
+@media only screen and (min-width: 769px and max-width 1024px) {
+    .contenedor{
+        grid-template-areas: 
+        "box1 box1 box1 box1 box1"
+        "box2 box2 box2 box4 box4"
+        "box3 box3 box3 box3 box3"
+        "box6 box7 box8 box5 box15"
+        "box9 box9 box9 box9 box9"
+        "box10 box11 box12 box13 box14";
+        width: 90%;
+    }
+}
