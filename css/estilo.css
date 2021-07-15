@@ -1039,7 +1039,7 @@ footer .redes i {
   padding: 5px; }
 
 @media only screen and (max-width: 768px) {
-  .contenido-menu li {
+  .contenido-menu .sub-contenido-menu {
     padding: 1rem; }
   .pie {
     padding: 50px;
