@@ -22,11 +22,14 @@ $medida: 100px;
     font-weight: 900;
     color: #333;
 }
+.estiloForm .nacion,
+.estiloForm .proced,
 .estiloFormDt .nacion,
 .estiloFormDt .proced{
     margin: 20px;
     margin-left: 80px;
 }
+.estiloForm .edad,
 .estiloFormDt .edad{
     margin: 20px;
     margin-left: 135px;
@@ -39,11 +42,6 @@ $medida: 100px;
     margin: 20px 24px; 
 }
 
-.estiloForm .nacion,
-.estiloForm .proced{
-    margin: 20px;
-    margin-left: 80px;
-}
 .estiloForm .posicion{
     margin: 20px;
     margin-left: 108px;
@@ -51,10 +49,7 @@ $medida: 100px;
 .estiloForm .posicionDet{
     margin: 20px 38px;
 }
-.estiloForm .edad{
-    margin: 20px;
-    margin-left: 135px;
-}
+
 .estiloForm .pierna{
     margin: 20px 82px;
 }
@@ -104,12 +99,10 @@ form{
     cursor: pointer;
 }
 
-.contenido-scout{
-    float: right;
-    margin: 50px; 
-}
+
+.contenido-scout img,
 .contenido-scout-dt img{
-    width: 650px;
+    width: 600px;
     float: right;
     margin: 50px;
 }

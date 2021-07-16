@@ -18,11 +18,14 @@
   font-weight: 900;
   color: #333; }
 
+.estiloForm .nacion,
+.estiloForm .proced,
 .estiloFormDt .nacion,
 .estiloFormDt .proced {
   margin: 20px;
   margin-left: 80px; }
 
+.estiloForm .edad,
 .estiloFormDt .edad {
   margin: 20px;
   margin-left: 135px; }
@@ -33,21 +36,12 @@
 .estiloFormDt .formacion {
   margin: 20px 24px; }
 
-.estiloForm .nacion,
-.estiloForm .proced {
-  margin: 20px;
-  margin-left: 80px; }
-
 .estiloForm .posicion {
   margin: 20px;
   margin-left: 108px; }
 
 .estiloForm .posicionDet {
   margin: 20px 38px; }
-
-.estiloForm .edad {
-  margin: 20px;
-  margin-left: 135px; }
 
 .estiloForm .pierna {
   margin: 20px 82px; }
@@ -96,12 +90,9 @@ form {
 .table-jugadores {
   cursor: pointer; }
 
-.contenido-scout {
-  float: right;
-  margin: 50px; }
-
+.contenido-scout img,
 .contenido-scout-dt img {
-  width: 650px;
+  width: 600px;
   float: right;
   margin: 50px; }
 
@@ -203,6 +194,10 @@ table, th, td {
 /* HTML IFRAME PARTIDOS */
 .seccionVideo {
   width: 500px; }
+
+@media only screen and (max-width: 768px) {
+  .contenido-posiciones {
+    margin: 0; } }
 
 /* HTML COPA AMERICA - IMG GUIA */
 .avisosPerfil img {

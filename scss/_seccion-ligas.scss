@@ -92,3 +92,11 @@ table, th, td {
 .seccionVideo{
     width: 500px;
 }
+
+@media only screen and (max-width: 768px){
+    
+    .contenido-posiciones{
+        margin: 0;
+    }
+
+}
