@@ -52,13 +52,9 @@
     background:rosybrown;
 
 }
-.cuadroFinalCopaAm{
-    width: 130px;
-    height: 100px;
-    border: 3px solid black;
-    margin-left: 300px;
-}
 
+
+.cuadroFinalCopaAm,
 .cuadroSemisCopaAm,
 .cuadroCuartosCopaAm,
 .cuadroOctavos,
@@ -66,47 +62,31 @@
 .cuadroSemis1,
 .cuadroSemis2,
 .cuadroFinal{ 
+    background-color:rgba(0, 128, 0, .3);
     width: 130px;
     height: 100px;
     border: 3px solid black;
-    margin: 20px;
+    margin-left: 20px;
 }
 .cuadroCuartos{
-    position: relative;
-    top: 80px;
+    margin-left: 200px ;
 }
-.cuadroSemis1{
-    visibility: hidden;
-}
+
 .cuadroSemis2{
-    position: relative;
-    bottom: 70px;
+    margin-left: 300px;
 }
 .cuadroFinal{
-    position: relative;
-    bottom: 100px;
+    margin-left: 400px;
 }
 
 .cuadroSemisCopaAm{
-    position: relative;
-    top: 75px;
+    margin-left: 200px;
+}
+.cuadroFinalCopaAm{
+    margin-left: 300px;
 }
 
-/*.cuadroFinalCopaAm{
-    position: relative;
-    top: 220px;
-}*/
 
-.parte1{
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-}
-.parte2{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
 
 .contenido-copa-america img{
     float: right;
@@ -165,10 +145,6 @@
      .seleccionBox{
         margin: 20px 0px;
     }
-    .cuadroFinalCopaAm{
-        margin-left: 230px;
-    }
     
-
 
 }

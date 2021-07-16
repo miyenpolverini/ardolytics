@@ -438,12 +438,7 @@ h5 {
   width: 50%;
   background: rosybrown; }
 
-.cuadroFinalCopaAm {
-  width: 130px;
-  height: 100px;
-  border: 3px solid black;
-  margin-left: 300px; }
-
+.cuadroFinalCopaAm,
 .cuadroSemisCopaAm,
 .cuadroCuartosCopaAm,
 .cuadroOctavos,
@@ -451,43 +446,26 @@ h5 {
 .cuadroSemis1,
 .cuadroSemis2,
 .cuadroFinal {
+  background-color: rgba(0, 128, 0, 0.3);
   width: 130px;
   height: 100px;
   border: 3px solid black;
-  margin: 20px; }
+  margin-left: 20px; }
 
 .cuadroCuartos {
-  position: relative;
-  top: 80px; }
-
-.cuadroSemis1 {
-  visibility: hidden; }
+  margin-left: 200px; }
 
 .cuadroSemis2 {
-  position: relative;
-  bottom: 70px; }
+  margin-left: 300px; }
 
 .cuadroFinal {
-  position: relative;
-  bottom: 100px; }
+  margin-left: 400px; }
 
 .cuadroSemisCopaAm {
-  position: relative;
-  top: 75px; }
+  margin-left: 200px; }
 
-/*.cuadroFinalCopaAm{
-    position: relative;
-    top: 220px;
-}*/
-.parte1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
-.parte2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start; }
+.cuadroFinalCopaAm {
+  margin-left: 300px; }
 
 .contenido-copa-america img {
   float: right;
@@ -531,9 +509,7 @@ h5 {
   .contenido-copa-america img {
     display: none; }
   .seleccionBox {
-    margin: 20px 0px; }
-  .cuadroFinalCopaAm {
-    margin-left: 230px; } }
+    margin: 20px 0px; } }
 
 /* HTML SECCION EQUIPOS ARGENTINOS - FLEXBOX  */
 .imgEquipos img {
