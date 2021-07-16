@@ -218,6 +218,10 @@ footer .redes i{
 }
 
 @media only screen and (max-width: 768px){
+  
+  nav{
+    width: 70%;
+  }
 
   .contenido-menu .sub-contenido-menu{
     padding: 1rem;
@@ -228,6 +232,8 @@ footer .redes i{
     display:block;
     justify-content:center;
     align-items:center; 
+    position: relative;
+    bottom: 100px;
   }
   .redes{
     margin-top: 30px;   

@@ -90,6 +90,7 @@ form{
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bolder;
+    color: white;
 }
 
 @for $i from 1 through 3{
@@ -113,3 +114,32 @@ form{
     margin: 50px;
 }
 
+@media only screen and (max-width: 768px){
+
+    .contenido-scout,
+    .contenido-scout-dt{
+        img{
+            display: none;
+        }
+    }
+    .estiloForm .nacion,
+    .estiloForm .edad,
+    .estiloForm .proced,
+    .estiloForm .pierna,
+    .estiloForm .posicion,
+    .estiloForm .posicionDet,
+    .estiloFormDt .nacion,
+    .estiloFormDt .proced,
+    .estiloFormDt .formacion,
+    .estiloFormDt .edad,
+    .estiloFormDt .estilo{
+        margin: 15px 0px;
+    }
+    .estiloForm, .estiloFormDt{
+        .label-responsive{
+        width: 100px;
+        }
+    }
+
+    
+}

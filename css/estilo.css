@@ -78,7 +78,8 @@ form {
   height: 30px;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bolder; }
+  font-weight: bolder;
+  color: white; }
 
 .nivel-1 {
   width: 100px;
@@ -103,6 +104,25 @@ form {
   width: 650px;
   float: right;
   margin: 50px; }
+
+@media only screen and (max-width: 768px) {
+  .contenido-scout img,
+  .contenido-scout-dt img {
+    display: none; }
+  .estiloForm .nacion,
+  .estiloForm .edad,
+  .estiloForm .proced,
+  .estiloForm .pierna,
+  .estiloForm .posicion,
+  .estiloForm .posicionDet,
+  .estiloFormDt .nacion,
+  .estiloFormDt .proced,
+  .estiloFormDt .formacion,
+  .estiloFormDt .edad,
+  .estiloFormDt .estilo {
+    margin: 15px 0px; }
+  .estiloForm .label-responsive, .estiloFormDt .label-responsive {
+    width: 100px; } }
 
 /* HTML COPALIGA - TABLAS */
 table {
@@ -1039,13 +1059,17 @@ footer .redes i {
   padding: 5px; }
 
 @media only screen and (max-width: 768px) {
+  nav {
+    width: 70%; }
   .contenido-menu .sub-contenido-menu {
     padding: 1rem; }
   .pie {
     padding: 50px;
     display: block;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    position: relative;
+    bottom: 100px; }
   .redes {
     margin-top: 30px; }
   footer .redes i {
