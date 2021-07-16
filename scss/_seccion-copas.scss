@@ -4,13 +4,18 @@
     padding: 10px;
     display: inline-block;
     border: 1px solid black;
+    background-color: darkslategray;
 }
 
 .seleccionBox table{
     width: 500px;
+    background-color:rgba(0, 128, 0, .3);
+    color: wheat;
+    font-weight: bolder;
 }
 .seleccionBox table tr th{
     text-align: center;
+    background-color: rgba(0, 0, 0, .5);
 }
 .seleccionBox table tr td{
     font-size: 1em;
@@ -156,6 +161,10 @@
     .foto-copa-america{
         position:static;
      }
+     .seleccionBox{
+        margin: 20px 0px;
+    }
+    
 
 
 }
