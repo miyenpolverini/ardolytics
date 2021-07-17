@@ -1062,6 +1062,8 @@ footer .redes i {
   .contenido-menu .sub-contenido-menu {
     padding: 1rem;
     border-bottom: 1px solid white; }
+  .submenu-boot li {
+    padding: 20px; }
   .pie {
     display: block;
     position: relative;
@@ -1079,4 +1081,4 @@ footer .redes i {
     position: relative;
     right: 15px; }
   footer .redes #logo-facebook {
-    padding: 12px 14px; } }
+    padding: 12px 15px; } }
