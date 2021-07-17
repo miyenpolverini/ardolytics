@@ -1,17 +1,22 @@
 $medida: 100px;
 
+.body-ojeadores{
+    background-color: wheat;
+}
+
 /* FORMULARIOS */
 .estiloFormDt,
 .estiloForm{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
+    background-color: #ccc;
 }
 
 /* HTML CONTACTO */
 #seccionContacto{
     width: 250px;
     margin: auto;
-}
+}   
 
 .estiloFormDt select,
 .estiloForm select{
@@ -22,18 +27,18 @@ $medida: 100px;
     font-weight: 900;
     color: #333;
 }
-.estiloForm .nacion,
-.estiloForm .proced,
-.estiloFormDt .nacion,
+
+.estiloFormDt .nacion{
+    margin: 20px;
+    margin-left: 76px;
+}
+.estiloFormDt .edad{
+    margin: 20px;
+    margin-left: 133px; 
+}
 .estiloFormDt .proced{
     margin: 20px;
     margin-left: 80px;
-}
-.estiloForm .edad,
-.estiloFormDt .edad{
-    margin: 20px;
-    margin-left: 135px;
-    
 }
 .estiloFormDt .estilo{
     margin: 20px 60px; 
@@ -42,16 +47,27 @@ $medida: 100px;
     margin: 20px 24px; 
 }
 
+.estiloForm .nacion{
+    margin: 20px;
+    margin-left: 78px;
+}
+.estiloForm .edad{
+    margin: 20px;
+    margin-left: 135px;
+}
 .estiloForm .posicion{
     margin: 20px;
-    margin-left: 108px;
+    margin-left: 110px;
 }
 .estiloForm .posicionDet{
-    margin: 20px 38px;
+    margin: 20px 39px;
 }
-
+.estiloForm .proced{
+    margin: 20px;
+    margin-left: 80px;
+}
 .estiloForm .pierna{
-    margin: 20px 82px;
+    margin: 20px 84px;
 }
 
 form{
@@ -73,27 +89,6 @@ form{
     height: 30px;  
 }
 
-.niveles{
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-}
-
-.nivel{
-    border: 2px solid black; 
-    height: 30px;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bolder;
-    color: white;
-}
-
-@for $i from 1 through 3{
-    .nivel-#{$i}{
-        width: $medida * 1 *$i;
-        background-color: darken(#666666, $i * 10)
-    }
-}
 
 .table-jugadores{
     cursor: pointer;
@@ -107,6 +102,13 @@ form{
     margin: 50px;
 }
 
+.titulo-ojeadores{
+    background-color: #ccc;
+    border: 3px solid black;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 768px){
 
     .contenido-scout,
@@ -115,22 +117,46 @@ form{
             display: none;
         }
     }
-    .estiloForm .nacion,
-    .estiloForm .edad,
-    .estiloForm .proced,
-    .estiloForm .pierna,
-    .estiloForm .posicion,
-    .estiloForm .posicionDet,
-    .estiloFormDt .nacion,
-    .estiloFormDt .proced,
-    .estiloFormDt .formacion,
-    .estiloFormDt .edad,
+    .estiloForm .nacion{
+        margin: 15px 40px;    
+    }
+    .estiloForm .edad{
+        margin: 15px 30px;   
+    }
+    .estiloForm .posicion{
+        margin: 15px 30px;   
+    }
+    .estiloForm .proced{
+        margin: 15px 44px; 
+    }
+    .estiloForm .pierna{
+        margin: 15px 46px;   
+    }
+    
+
+    .estiloFormDt .nacion{
+        margin: 15px 52px;     
+    }
+    .estiloFormDt .edad{
+        margin: 15px 42px;  
+    }
+    .estiloFormDt .proced{
+        margin: 15px 56px;
+    }
     .estiloFormDt .estilo{
-        margin: 15px 0px;
+        margin: 15px 38px;
+    }
+    .estiloForm .posicionDet,   
+    .estiloFormDt .formacion{
+        margin: 15px 5px;
     }
     .estiloForm, .estiloFormDt{
+        width: 500px;
+        label{
+            font-size: 15px;
+        }
         .label-responsive{
-        width: 100px;
+            width: 100px;
         }
     }
 
