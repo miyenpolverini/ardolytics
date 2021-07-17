@@ -222,17 +222,18 @@ footer .redes i{
 @media only screen and (max-width: 768px){
   
   .logoPrincipal{
-    width: 500px;
+    width: 700px;
   }
   nav{
-    width: 500px;
+    width: 700px;
   }
-  .carrusel-resp{
-    width: 500px;
+  .carrusel-respo{
+    width: 700px;
   }
 
   .contenido-menu .sub-contenido-menu{
     padding: 1rem;
+    border-bottom: 1px solid white;
   }
 
   .pie{
@@ -242,7 +243,7 @@ footer .redes i{
     align-items:center; 
     position: relative;
     bottom: 115px;
-    width: 500px;
+    width: 700px;
   }
   .redes{
     margin-top: 30px;   
