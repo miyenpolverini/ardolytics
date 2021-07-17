@@ -1,4 +1,4 @@
-.body-ojeadores {
+.body-color-var {
   background-color: wheat; }
 
 /* FORMULARIOS */
@@ -1048,7 +1048,11 @@ footer .redes i {
   color: black; }
 
 @media only screen and (max-width: 768px) {
+  .logoPrincipal {
+    width: 500px; }
   nav {
+    width: 500px; }
+  .carrusel-resp {
     width: 500px; }
   .contenido-menu .sub-contenido-menu {
     padding: 1rem; }
@@ -1058,7 +1062,8 @@ footer .redes i {
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 100px; }
+    bottom: 115px;
+    width: 500px; }
   .redes {
     margin-top: 30px; }
   footer .redes i {

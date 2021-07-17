@@ -221,7 +221,13 @@ footer .redes i{
 
 @media only screen and (max-width: 768px){
   
+  .logoPrincipal{
+    width: 500px;
+  }
   nav{
+    width: 500px;
+  }
+  .carrusel-resp{
     width: 500px;
   }
 
@@ -235,7 +241,8 @@ footer .redes i{
     justify-content:center;
     align-items:center; 
     position: relative;
-    bottom: 100px;
+    bottom: 115px;
+    width: 500px;
   }
   .redes{
     margin-top: 30px;   
