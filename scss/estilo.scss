@@ -133,6 +133,9 @@ ul li:hover ul {
          .seccion-contacto{
                            padding: 0.5rem;
          }
+         .boton-contacto{
+           width: 120px;
+         }
 }
 
 .susc-opciones{
@@ -222,13 +225,14 @@ footer .redes i{
 @media only screen and (max-width: 768px){
   
   .logoPrincipal{
-    width: 700px;
+    margin:0 auto ;
+    width: 380px;
   }
   nav{
-    width: 700px;
+    width: 380px;
   }
   .carrusel-respo{
-    width: 700px;
+    width: 380px;
   }
 
   .contenido-menu .sub-contenido-menu{
@@ -237,16 +241,16 @@ footer .redes i{
   }
 
   .pie{
-    padding: 50px;
-    display:block;
-    justify-content:center;
-    align-items:center; 
+    display: block;
     position: relative;
     bottom: 115px;
-    width: 700px;
+    width: 380px;
+  }
+  .contacto{
+    display: block;
   }
   .redes{
-    margin-top: 30px;   
+    margin-top: 50px;
   }
   footer .redes{
     i{
@@ -258,11 +262,8 @@ footer .redes i{
       right: 15px;
     }
     #logo-facebook{
-      padding: 13px 14px;
+      padding: 12px 14px;
     }
   } 
-  .logoPrincipal{
-    margin:0 auto ;
-  }
   
 }
