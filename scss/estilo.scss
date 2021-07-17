@@ -88,9 +88,21 @@ ul li:hover ul {
   background:rgb(35, 59, 59);
 }
 
-.submenu-boot li a{
-  color: white;
-}
+.submenu-boot li{
+  a{
+    color: white;
+  }
+  i{
+    color: white;
+  }
+  .flecha-jug{
+    margin-left: 130px;
+  }
+  .flecha-dt{
+    margin-left: 62px;
+  }
+
+} 
 
 .submenu-boot li a:hover{
   color: gray;
@@ -242,6 +254,16 @@ footer .redes i{
 
   .submenu-boot li{
     padding: 20px;
+  }
+
+  .submenu-boot li{
+    .flecha-jug{
+      margin-left: 95px;
+    }
+    .flecha-dt{
+      margin-left: 29px;
+    }
+  
   }
 
   .pie{
