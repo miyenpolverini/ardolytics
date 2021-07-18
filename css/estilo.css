@@ -932,10 +932,6 @@ ul ul li {
   margin-bottom: 5px;
   border-bottom: 1px solid black; }
 
-/* para desplegar sub-menu sin clickear */
-ul li:hover ul {
-  display: block; }
-
 .menu-boot:hover {
   color: white;
   border-bottom: 5px solid black; }
