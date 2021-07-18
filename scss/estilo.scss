@@ -235,13 +235,12 @@ footer .redes i{
   
   .logoPrincipal{
     margin:0 auto ;
-    width: 380px;
   }
   nav{
-    width: 380px;
+    width: 375px;
   }
   .carrusel-respo{
-    width: 380px;
+    width: 375px;
   }
 
   .contenido-menu .sub-contenido-menu{
@@ -253,6 +252,15 @@ footer .redes i{
     padding: 20px;
   }
 
+  
+  .menu-boot{
+    .flecha-ojeadores{
+      margin-left: 9em;
+    }
+    &:hover{
+      border-bottom: none;
+    }
+  }
   .submenu-boot li{
     .flecha-jug{
       margin-left: 46%;
@@ -266,8 +274,8 @@ footer .redes i{
   .pie{
     display: block;
     position: relative;
-    bottom: 115px;
-    width: 380px;
+    bottom: 75px;
+    width: 375px;
   }
   .contacto{
     display: block;

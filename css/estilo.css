@@ -1058,17 +1058,20 @@ footer .redes i {
 
 @media only screen and (max-width: 768px) {
   .logoPrincipal {
-    margin: 0 auto;
-    width: 380px; }
+    margin: 0 auto; }
   nav {
-    width: 380px; }
+    width: 375px; }
   .carrusel-respo {
-    width: 380px; }
+    width: 375px; }
   .contenido-menu .sub-contenido-menu {
     padding: 1rem;
     border-bottom: 1px solid white; }
   .submenu-boot li {
     padding: 20px; }
+  .menu-boot .flecha-ojeadores {
+    margin-left: 9em; }
+  .menu-boot:hover {
+    border-bottom: none; }
   .submenu-boot li .flecha-jug {
     margin-left: 46%; }
   .submenu-boot li .flecha-dt {
@@ -1076,8 +1079,8 @@ footer .redes i {
   .pie {
     display: block;
     position: relative;
-    bottom: 115px;
-    width: 380px; }
+    bottom: 75px;
+    width: 375px; }
   .contacto {
     display: block; }
   .redes {
