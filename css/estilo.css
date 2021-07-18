@@ -1070,12 +1070,38 @@ footer .redes i {
     padding: 20px; }
   .menu-boot .flecha-ojeadores {
     margin-left: 9em; }
+  .menu-boot .flecha-ligas {
+    margin-left: 12.2em; }
+  .menu-boot .flecha-copas {
+    margin-left: 11.8em; }
+  .menu-boot .flecha-equipos {
+    margin-left: 10.7em; }
+  .menu-boot .flecha-selecciones {
+    margin-left: 8.1em; }
   .menu-boot:hover {
     border-bottom: none; }
   .submenu-boot li .flecha-jug {
     margin-left: 46%; }
   .submenu-boot li .flecha-dt {
     margin-left: 14%; }
+  .submenu-boot li .flecha-ligas-arg {
+    margin-left: 6.8em; }
+  .submenu-boot li .flecha-ligas-ing {
+    margin-left: 3.5em; }
+  .submenu-boot li .flecha-ligas-esp {
+    margin-left: 7.5em; }
+  .submenu-boot li .flecha-ligas-ita {
+    margin-left: 7.5em; }
+  .submenu-boot li .flecha-ligas-ale {
+    margin-left: 5.5em; }
+  .submenu-boot li .flecha-copas-america {
+    margin-left: 5.6em; }
+  .submenu-boot li .flecha-copas-eurocopa {
+    margin-left: 7.7em; }
+  .submenu-boot li .flecha-equipos-arg {
+    margin-left: 7.5em; }
+  .submenu-boot li .flecha-selecciones-rank {
+    margin-left: 5.8em; }
   .pie {
     display: block;
     position: relative;
