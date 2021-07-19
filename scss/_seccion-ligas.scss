@@ -22,14 +22,16 @@ table, th, td {
 
 .posResultado{
     text-align: center;
+    font-weight: bold;
 }
 
 .equipo{
     width: 150px;
 }
 
-.goles{
+.goles td p{
     font-size: 12px;
+    margin: 1px;
 }
 
 .seccionPartidos .goles li{
@@ -42,7 +44,7 @@ table, th, td {
 }
 
 .seccionPartidos{
-    width: 380px;
+    width: 400px;
     margin: auto;
 }
 
@@ -87,6 +89,21 @@ table, th, td {
     display: inline-block;
     margin: 20px 10px 5px 150px;
 }
+
+.estiloFormTemporada {
+    background-color: #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    select{
+        width: 300px;
+        height: 25px;
+        border: 3px solid grey;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        color: #333;
+    }    
+}
+
 
 /* HTML IFRAME PARTIDOS */
 .seccionVideo{
