@@ -1,6 +1,3 @@
-.body-color-var {
-  background-color: wheat; }
-
 /* FORMULARIOS */
 .estiloFormDt,
 .estiloForm {
@@ -108,7 +105,7 @@ form {
   .estiloForm .proced {
     margin: 15px 44px; }
   .estiloForm .pierna {
-    margin: 15px 48px; }
+    margin: 15px 47px; }
   .estiloFormDt .nacion {
     margin: 15px 52px; }
   .estiloFormDt .edad {
@@ -244,7 +241,6 @@ h5 {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 10px;
-  margin-right: 250px;
   margin-left: 50px; }
 
 /* Padre */
@@ -354,7 +350,8 @@ h5 {
 .contenedor__gridSeis li {
   text-align: start;
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none; }
 
 /* PALMARES */
 .contenedor__gridCuatro li,
@@ -362,7 +359,8 @@ h5 {
   list-style-position: inside;
   text-align: start;
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none; }
 
 .contenedor__gridCuatro ul {
   margin: 20%;
@@ -391,9 +389,27 @@ h5 {
 /* TABLET */
 @media only screen and (max-width: 768px) {
   .contenedor {
-    grid-template-areas: "box1 box1 box1 box1 box1" "box2 box2 box2 box2 box2" "box4 box4 box4 box4 box4" "box3 box3 box3 box3 box3" "box6 box7 box8 box5 box15" "box9 box9 box9 box9 box9" "box10 box11 box12 box13 box14";
-    grid-template-rows: 0.01fr 0.5fr 1fr 0.1fr 0.1fr 0.1fr 0.5fr;
-    width: 100%; } }
+    grid-template-areas: "box1 box1 box1" "box2 box2 box2" "box4 box4 box4" "box3 box3 box3" "box15 box15 box15" "box6 box6 box6"  "box7 box7 box7" "box8 box8 box8" "box5 box5 box5" "box9 box9 box9" "box10 box10 box10" "box11 box11 box11" "box12 box12 box12" "box13 box13 box13" "box14 box14 box14";
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 0.1fr 1fr  0.8fr  0.1fr  0.1fr 0.1fr  0.1fr  0.1fr  0.1fr 0.1fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
+    width: 360px; }
+  .contenedor__gridUno {
+    font-size: 10px; }
+  .contenedor__gridCuatro ul li {
+    font-size: 15px; }
+  .contenedor__gridSeis ul li,
+  .contenedor__gridSiete ul li {
+    text-align: center; }
+  .contenedor__gridCinco img,
+  .contenedor__gridOcho img,
+  .contenedor__gridDiez img,
+  .contenedor__gridOnce img,
+  .contenedor__gridDoce img,
+  .contenedor__gridTrece img,
+  .contenedor__gridCatorce img,
+  .contenedor__gridQuince img {
+    width: 50%;
+    margin-left: 90px; } }
 
 /* DESKTOP */
 @media only screen and (min-width: max-width 1024px) {
@@ -542,7 +558,8 @@ h5 {
 
 .imgEquipos .detEquipo:hover {
   opacity: 1;
-  border: 5px solid white; }
+  border: 5px solid black;
+  cursor: pointer; }
 
 /* RANKING HTML */
 .barraPuntos {
@@ -874,16 +891,22 @@ h5 {
     width: 250px;
     background: linear-gradient(to right, red, white, red); } }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 /* CUERPO */
 .body-index {
   background-image: url(../img/pool_table.png);
   font-family: Arial, Helvetica, sans-serif;
   color: black; }
+
+.body-color-var {
+  background-color: wheat; }
+
+.body-color-var2 {
+  background-color: dimgray; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /* TITULOS */
 .logoPrincipal {
@@ -927,7 +950,7 @@ nav {
   z-index: 1; }
 
 ul ul li {
-  width: 250px;
+  width: 190px;
   margin-left: 5px;
   margin-bottom: 5px;
   border-bottom: 1px solid black; }
@@ -944,12 +967,6 @@ ul ul li {
 
 .submenu-boot li i {
   color: white; }
-
-.submenu-boot li .flecha-jug {
-  margin-left: 130px; }
-
-.submenu-boot li .flecha-dt {
-  margin-left: 62px; }
 
 .submenu-boot li a:hover {
   color: gray; }
@@ -1068,6 +1085,8 @@ footer .redes i {
     border-bottom: 1px solid white; }
   .submenu-boot li {
     padding: 20px; }
+  ul ul li {
+    width: 250px; }
   .menu-boot .flecha-ojeadores {
     margin-left: 9em; }
   .menu-boot .flecha-ligas {

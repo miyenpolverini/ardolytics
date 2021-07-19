@@ -4,19 +4,13 @@
 @import "seccion-copas";
 @import "seccion-equipos";
 @import "seccion-ranking";
+@import "body-colores";
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; }
   
-/* CUERPO */
-.body-index{
-  background-image: url(../img/pool_table.png);
-  font-family: Arial, Helvetica, sans-serif;      
-  color: black;
-}
-
 /* TITULOS */
 
 .logoPrincipal{
@@ -68,7 +62,7 @@ nav{
 }
 
 ul ul li {
-  width: 250px;
+  width: 190px;
   margin-left: 5px;
   margin-bottom: 5px;
   border-bottom: 1px solid black;
@@ -92,13 +86,6 @@ ul ul li {
   i{
     color: white;
   }
-  .flecha-jug{
-    margin-left: 130px;
-  }
-  .flecha-dt{
-    margin-left: 62px;
-  }
-
 } 
 
 .submenu-boot li a:hover{
@@ -252,7 +239,10 @@ footer .redes i{
     padding: 20px;
   }
 
-  
+  ul ul li {
+    width: 250px;
+  }
+
   .menu-boot{
     .flecha-ojeadores{
       margin-left: 9em;
