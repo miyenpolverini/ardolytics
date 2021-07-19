@@ -397,9 +397,6 @@ h5 {
     font-size: 10px; }
   .contenedor__gridCuatro ul li {
     font-size: 15px; }
-  .contenedor__gridSeis ul li,
-  .contenedor__gridSiete ul li {
-    text-align: center; }
   .contenedor__gridCinco img,
   .contenedor__gridOcho img,
   .contenedor__gridDiez img,
@@ -1096,7 +1093,7 @@ footer .redes i {
   .menu-boot .flecha-equipos {
     margin-left: 10.7em; }
   .menu-boot .flecha-selecciones {
-    margin-left: 8.1em; }
+    margin-left: 8.3em; }
   .menu-boot:hover {
     border-bottom: none; }
   .submenu-boot li .flecha-jug {
