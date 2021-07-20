@@ -1142,3 +1142,75 @@ footer .redes i {
     right: 15px; }
   footer .redes #logo-facebook {
     padding: 12px 15px; } }
+
+@media only screen and (min-width: 376px) {
+  .carousel-portada {
+    height: 500px; }
+  .nav-index {
+    position: relative;
+    bottom: 500px; }
+  .logoPrincipal {
+    margin: 0 auto; }
+  nav {
+    width: 414px; }
+  .carrusel-respo {
+    width: 414px; }
+  .contenido-menu .sub-contenido-menu {
+    padding: 1rem;
+    border-bottom: 1px solid white; }
+  .submenu-boot li {
+    padding: 20px; }
+  ul ul li {
+    width: 250px; }
+  .menu-boot .flecha-ojeadores {
+    margin-left: 9em; }
+  .menu-boot .flecha-ligas {
+    margin-left: 12.2em; }
+  .menu-boot .flecha-copas {
+    margin-left: 11.8em; }
+  .menu-boot .flecha-equipos {
+    margin-left: 10.8em; }
+  .menu-boot .flecha-selecciones {
+    margin-left: 8.2em; }
+  .menu-boot:hover {
+    border-bottom: none; }
+  .submenu-boot li .flecha-jug {
+    margin-left: 46%; }
+  .submenu-boot li .flecha-dt {
+    margin-left: 14%; }
+  .submenu-boot li .flecha-ligas-arg {
+    margin-left: 3.2em; }
+  .submenu-boot li .flecha-ligas-ing {
+    margin-left: 3.5em; }
+  .submenu-boot li .flecha-ligas-esp {
+    margin-left: 7.5em; }
+  .submenu-boot li .flecha-ligas-ita {
+    margin-left: 7.5em; }
+  .submenu-boot li .flecha-ligas-ale {
+    margin-left: 5.5em; }
+  .submenu-boot li .flecha-copas-america {
+    margin-left: 5.6em; }
+  .submenu-boot li .flecha-copas-eurocopa {
+    margin-left: 7.7em; }
+  .submenu-boot li .flecha-equipos-arg {
+    margin-left: 7.5em; }
+  .submenu-boot li .flecha-selecciones-rank {
+    margin-left: 5.8em; }
+  .pie {
+    display: block;
+    position: relative;
+    bottom: 75px;
+    width: 414px; }
+  .contacto {
+    display: block; }
+  .redes {
+    margin-top: 50px; }
+  footer .redes i {
+    font-size: 1rem;
+    background-color: black;
+    border-radius: 50%;
+    padding: 11px;
+    position: relative;
+    right: 15px; }
+  footer .redes #logo-facebook {
+    padding: 12px 15px; } }
