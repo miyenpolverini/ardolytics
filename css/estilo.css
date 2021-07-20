@@ -953,6 +953,11 @@ ul ul li {
   margin-bottom: 5px;
   border-bottom: 1px solid black; }
 
+/* para desplegar sub-menu sin clickear */
+ul li:hover ul {
+  display: block;
+  margin-top: 2px; }
+
 .menu-boot:hover {
   color: white;
   border-bottom: 5px solid black; }
@@ -1088,6 +1093,9 @@ footer .redes i {
     border-bottom: 1px solid white; }
   .submenu-boot li {
     padding: 20px; }
+  /* para NO desplegar sub-menu sin clickear */
+  ul li:hover ul {
+    display: none; }
   ul ul li {
     width: 250px; }
   .menu-boot .flecha-ojeadores {
@@ -1162,6 +1170,9 @@ footer .redes i {
     padding: 20px; }
   ul ul li {
     width: 250px; }
+  /* para NO desplegar sub-menu sin clickear */
+  ul li:hover ul {
+    display: none; }
   .menu-boot .flecha-ojeadores {
     margin-left: 9em; }
   .menu-boot .flecha-ligas {
