@@ -1071,7 +1071,7 @@ footer .redes i {
   padding: 5px;
   color: black; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 765px) {
   .logoPrincipal {
     margin: 0 auto; }
   nav {
@@ -1086,15 +1086,15 @@ footer .redes i {
   ul ul li {
     width: 250px; }
   .menu-boot .flecha-ojeadores {
-    margin-left: 9.3em; }
+    margin-left: 9em; }
   .menu-boot .flecha-ligas {
     margin-left: 12.2em; }
   .menu-boot .flecha-copas {
     margin-left: 11.8em; }
   .menu-boot .flecha-equipos {
-    margin-left: 10.9em; }
+    margin-left: 10.8em; }
   .menu-boot .flecha-selecciones {
-    margin-left: 8.6em; }
+    margin-left: 8.2em; }
   .menu-boot:hover {
     border-bottom: none; }
   .submenu-boot li .flecha-jug {
