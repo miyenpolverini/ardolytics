@@ -1072,6 +1072,11 @@ footer .redes i {
   color: black; }
 
 @media only screen and (max-width: 765px) {
+  .carousel-portada {
+    height: 500px; }
+  .nav-index {
+    position: relative;
+    bottom: 500px; }
   .logoPrincipal {
     margin: 0 auto; }
   nav {
