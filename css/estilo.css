@@ -1143,7 +1143,7 @@ footer .redes i {
   footer .redes #logo-facebook {
     padding: 12px 15px; } }
 
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 376px) and (max-width: 768px) {
   .carousel-portada {
     height: 500px; }
   .nav-index {
