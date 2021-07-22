@@ -201,6 +201,9 @@ table, th, td {
     font-weight: 600;
     color: #333; }
 
+.titulo-posiciones {
+  padding: 6px; }
+
 .titulo-fecha {
   background-color: darkslategray;
   display: flex;
@@ -1092,10 +1095,10 @@ footer .redes i {
 
 @media only screen and (max-width: 375px) {
   .carousel-portada {
-    height: 500px; }
+    height: 300px; }
   .nav-index {
     position: relative;
-    bottom: 500px; }
+    bottom: 300px; }
   .logoPrincipal {
     margin: 0 auto; }
   nav {

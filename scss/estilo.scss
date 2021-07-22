@@ -35,6 +35,7 @@ h4{
   background-color: darkslategray;
   font-size: 1em;
   font-weight: bold;
+
 }
 
 a{
@@ -224,12 +225,12 @@ footer .redes i{
 @media only screen and (max-width: 375px){
   
   .carousel-portada{
-    height: 500px;
+    height: 300px;
   }
 
   .nav-index{
     position: relative;
-    bottom: 500px;
+    bottom: 300px;
   }
   
   .logoPrincipal{
