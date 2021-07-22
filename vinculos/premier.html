@@ -29,7 +29,7 @@
     <title>arDOLytics - Premier League</title>
 </head>
 
-<body>
+<body class="body-color-var">
     <header>
         <!-- MENU -->
         <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: rgba(47, 79, 79,.8);">
@@ -120,7 +120,18 @@
     <section>
         <h1 class="animate__animated animate__bounceInLeft">PREMIER LEAGUE</h1>
     </section>
-    <!-- seccion 0 -->
+
+    <section class="estiloFormTemporada">
+        <form action="">
+           <label for="temporada">Seleccionar temporada:</label>
+           <select class="temporada" name="temporada" id="temporada">
+              <option value="liga-arg">2020/2021</option>
+              <option value="copa-arg">2021/2022</option>
+           </select>
+           <button type="button" class="btn btn-light m-2">Mostrar</button>
+        </form>
+     </section>
+
     <section>
         <div class="equipoCampeonIng">
             <h4>CAMPEÓN</h4>
@@ -128,10 +139,7 @@
             <p>MANCHESTER CITY</p>
         </div>
     </section>
-    <div>
-        <img src="../img/descarga.png" alt="">
-    </div>
-    <hr>
+
     <footer class="footer">
         <div class="footer__volver">
             <a href="../index.html"><i class="fas fa-angle-left"></i></a>

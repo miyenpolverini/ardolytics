@@ -201,6 +201,20 @@ table, th, td {
     font-weight: 600;
     color: #333; }
 
+.titulo-fecha {
+  background-color: darkslategray;
+  display: flex;
+  justify-content: center;
+  padding: 4px; }
+  .titulo-fecha h4 {
+    font-size: 16px; }
+  .titulo-fecha .fecha-1 {
+    margin-left: 38px; }
+  .titulo-fecha .fecha-liga {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px; }
+
 /* HTML IFRAME PARTIDOS */
 .seccionVideo {
   width: 500px; }
@@ -515,7 +529,8 @@ h5 {
   justify-content: center; }
 
 .imgPaises .detPais:hover {
-  border: 1px solid white; }
+  border: 1px solid black;
+  cursor: pointer; }
 
 .detPais h5 {
   text-align: center; }
@@ -923,7 +938,6 @@ h1, h2 {
 
 h4 {
   color: white;
-  text-decoration: underline;
   text-align: center;
   background-color: darkslategray;
   font-size: 1em;
