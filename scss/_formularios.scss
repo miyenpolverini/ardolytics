@@ -24,46 +24,53 @@ $medida: 100px;
     color: #333;
 }
 
+@mixin margenes ($margin){
+    margin: 20px;
+    margin-left: $margin;
+}
+
 .estiloFormDt .nacion{
-    margin: 20px;
-    margin-left: 76px;
+    @include margenes(76px);
 }
-.estiloFormDt .edad{
-    margin: 20px;
-    margin-left: 133px; 
-}
+
 .estiloFormDt .proced{
-    margin: 20px;
-    margin-left: 80px;
+    @include margenes(80px);
 }
 .estiloFormDt .estilo{
-    margin: 20px 60px; 
+    @include margenes(60px);
 }
 .estiloFormDt .formacion{
-    margin: 20px 24px; 
+    @include margenes(24px);
+}
+
+.contenido-scout-dt img{
+    width: 500px;
+    float: right;
+    margin: 40px;
 }
 
 .estiloForm .nacion{
-    margin: 20px;
-    margin-left: 78px;
+    @include margenes(78px);
 }
+
 .estiloForm .edad{
-    margin: 20px;
-    margin-left: 135px;
+    @include margenes(135px);
 }
+
 .estiloForm .posicion{
-    margin: 20px;
-    margin-left: 110px;
+    @include margenes(110px);
 }
+
 .estiloForm .posicionDet{
-    margin: 20px 39px;
+    @include margenes(40px);
 }
+
 .estiloForm .proced{
-    margin: 20px;
-    margin-left: 80px;
+    @include margenes(81px);
 }
+
 .estiloForm .pierna{
-    margin: 20px 84px;
+    @include margenes(85px);
 }
 
 form{
@@ -74,9 +81,8 @@ form{
     cursor: pointer;
 }
 
-.contenido-scout img,
-.contenido-scout-dt img{
-    width: 600px;
+.contenido-scout img{
+    width: 500px;
     float: right;
     margin: 50px;
 }
@@ -92,6 +98,7 @@ form{
 
     .titulo-ojeadores{
         font-size: 10px;
+        width: 375px;
     }
 
     .contenido-scout,
@@ -101,42 +108,44 @@ form{
         }
     }
     .estiloForm .nacion{
-        margin: 15px 40px;    
+        @include margenes(42px);    
     }
     .estiloForm .edad{
-        margin: 15px 30px;   
+        @include margenes(32px);   
     }
     .estiloForm .posicion{
-        margin: 15px 31px;   
+        @include margenes(31px);  
+    }
+    .estiloForm .posicionDet{
+        @include margenes(5px);
     }
     .estiloForm .proced{
-        margin: 15px 44px; 
+        @include margenes(44px);
     }
     .estiloForm .pierna{
-        margin: 15px 48px;   
+        @include margenes(46px); 
     }
     
 
     .estiloFormDt .nacion{
-        margin: 15px 52px;     
-    }
-    .estiloFormDt .edad{
-        margin: 15px 42px;  
+        @include margenes(46px);   
     }
     .estiloFormDt .proced{
-        margin: 15px 56px;
+        @include margenes(50px);
     }
     .estiloFormDt .estilo{
-        margin: 15px 38px;
-    }
-    .estiloForm .posicionDet,   
+        @include margenes(32px);
+    } 
     .estiloFormDt .formacion{
-        margin: 14px 5px;
+        @include margenes(-1px);
     }
     .estiloForm, .estiloFormDt{
-        width: 500px;
+        width: 400px;
         label{
             font-size: 15px;
+        }
+        select{
+            width: 200px;
         }
         .label-responsive{
             width: 100px;

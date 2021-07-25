@@ -88,6 +88,9 @@ table, th, td {
 .contenido-posiciones{
     display: inline-block;
     margin: 20px 10px 5px 150px;
+    .tabla-tit{
+        width: 10px;
+    }
 }
 
 .estiloFormTemporada {

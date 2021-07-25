@@ -193,13 +193,21 @@ footer .redes i{
 
 .footer__volver,
 .footer__arriba{
-  position: absolute;
+  position: relative;
   bottom: 20px;
   right: 20px;
   border: 1px solid black;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.1);
   transition: all 1s;
+  i{
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5px;
+    color: black;
+  }
 }
 
 .footer__volver:hover,
@@ -212,15 +220,6 @@ footer .redes i{
   color: black;
 }
 
-.footer__arriba i,
-.footer__volver i{
-  width: 40px;
-  height: 40px;
-  font-size: 2rem;
-  text-align: center;
-  padding: 5px;
-  color: black;
-}
 
 @media only screen and (max-width: 375px){
   
@@ -343,6 +342,14 @@ footer .redes i{
       padding: 12px 15px;
     }
   } 
+
+  .footer__volver,
+  .footer__arriba{
+  position: relative;
+  bottom: 20px;
+  right: 50px;
+  position: fixed;
+  }
   
 }
 

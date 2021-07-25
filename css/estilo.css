@@ -23,19 +23,22 @@
   margin: 20px;
   margin-left: 76px; }
 
-.estiloFormDt .edad {
-  margin: 20px;
-  margin-left: 133px; }
-
 .estiloFormDt .proced {
   margin: 20px;
   margin-left: 80px; }
 
 .estiloFormDt .estilo {
-  margin: 20px 60px; }
+  margin: 20px;
+  margin-left: 60px; }
 
 .estiloFormDt .formacion {
-  margin: 20px 24px; }
+  margin: 20px;
+  margin-left: 24px; }
+
+.contenido-scout-dt img {
+  width: 500px;
+  float: right;
+  margin: 40px; }
 
 .estiloForm .nacion {
   margin: 20px;
@@ -50,14 +53,16 @@
   margin-left: 110px; }
 
 .estiloForm .posicionDet {
-  margin: 20px 39px; }
+  margin: 20px;
+  margin-left: 40px; }
 
 .estiloForm .proced {
   margin: 20px;
-  margin-left: 80px; }
+  margin-left: 81px; }
 
 .estiloForm .pierna {
-  margin: 20px 84px; }
+  margin: 20px;
+  margin-left: 85px; }
 
 form {
   padding: 20px; }
@@ -65,9 +70,8 @@ form {
 .table-jugadores {
   cursor: pointer; }
 
-.contenido-scout img,
-.contenido-scout-dt img {
-  width: 600px;
+.contenido-scout img {
+  width: 500px;
   float: right;
   margin: 50px; }
 
@@ -79,35 +83,47 @@ form {
 
 @media only screen and (max-width: 768px) {
   .titulo-ojeadores {
-    font-size: 10px; }
+    font-size: 10px;
+    width: 375px; }
   .contenido-scout img,
   .contenido-scout-dt img {
     display: none; }
   .estiloForm .nacion {
-    margin: 15px 40px; }
+    margin: 20px;
+    margin-left: 42px; }
   .estiloForm .edad {
-    margin: 15px 30px; }
+    margin: 20px;
+    margin-left: 32px; }
   .estiloForm .posicion {
-    margin: 15px 31px; }
+    margin: 20px;
+    margin-left: 31px; }
+  .estiloForm .posicionDet {
+    margin: 20px;
+    margin-left: 5px; }
   .estiloForm .proced {
-    margin: 15px 44px; }
+    margin: 20px;
+    margin-left: 44px; }
   .estiloForm .pierna {
-    margin: 15px 48px; }
+    margin: 20px;
+    margin-left: 46px; }
   .estiloFormDt .nacion {
-    margin: 15px 52px; }
-  .estiloFormDt .edad {
-    margin: 15px 42px; }
+    margin: 20px;
+    margin-left: 46px; }
   .estiloFormDt .proced {
-    margin: 15px 56px; }
+    margin: 20px;
+    margin-left: 50px; }
   .estiloFormDt .estilo {
-    margin: 15px 38px; }
-  .estiloForm .posicionDet,
+    margin: 20px;
+    margin-left: 32px; }
   .estiloFormDt .formacion {
-    margin: 14px 5px; }
+    margin: 20px;
+    margin-left: -1px; }
   .estiloForm, .estiloFormDt {
-    width: 500px; }
+    width: 400px; }
     .estiloForm label, .estiloFormDt label {
       font-size: 15px; }
+    .estiloForm select, .estiloFormDt select {
+      width: 200px; }
     .estiloForm .label-responsive, .estiloFormDt .label-responsive {
       width: 100px; } }
 
@@ -188,6 +204,8 @@ table, th, td {
 .contenido-posiciones {
   display: inline-block;
   margin: 20px 10px 5px 150px; }
+  .contenido-posiciones .tabla-tit {
+    width: 10px; }
 
 .estiloFormTemporada {
   background-color: #ccc;
@@ -1068,13 +1086,21 @@ footer .redes i {
 /* BOTONES VOLVER/ARRIBA */
 .footer__volver,
 .footer__arriba {
-  position: absolute;
+  position: relative;
   bottom: 20px;
   right: 20px;
   border: 1px solid black;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.1);
   transition: all 1s; }
+  .footer__volver i,
+  .footer__arriba i {
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5px;
+    color: black; }
 
 .footer__volver:hover,
 .footer__arriba:hover {
@@ -1082,15 +1108,6 @@ footer .redes i {
 
 .footer__volver a:hover,
 .footer__arriba a:hover {
-  color: black; }
-
-.footer__arriba i,
-.footer__volver i {
-  width: 40px;
-  height: 40px;
-  font-size: 2rem;
-  text-align: center;
-  padding: 5px;
   color: black; }
 
 @media only screen and (max-width: 375px) {
@@ -1166,7 +1183,13 @@ footer .redes i {
     position: relative;
     right: 15px; }
   footer .redes #logo-facebook {
-    padding: 12px 15px; } }
+    padding: 12px 15px; }
+  .footer__volver,
+  .footer__arriba {
+    position: relative;
+    bottom: 20px;
+    right: 50px;
+    position: fixed; } }
 
 @media only screen and (min-width: 376px) and (max-width: 768px) {
   .carousel-portada {
