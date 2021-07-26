@@ -148,7 +148,7 @@ ul li:hover ul {
 }
 
 footer .redes i{
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .pie{
@@ -159,6 +159,9 @@ footer .redes i{
   align-items: center;
   position: relative;
   bottom: 75px;
+  .separador{
+    color: rgba(255, 255, 255, 0.5);
+  }
 }
 
 
@@ -172,7 +175,13 @@ footer .redes i{
       }
       li{
         padding: 0.5rem;
-      }
+      }      
+}
+
+.extras{
+  a{
+    font-size: 0.8rem;
+  }
 }
 
 #nombreCreador{

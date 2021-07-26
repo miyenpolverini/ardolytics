@@ -1050,7 +1050,7 @@ ul li:hover ul {
   color: white; }
 
 footer .redes i {
-  font-size: 1.2rem; }
+  font-size: 1rem; }
 
 .pie {
   background-color: rgba(47, 79, 79, 0.8);
@@ -1060,6 +1060,8 @@ footer .redes i {
   align-items: center;
   position: relative;
   bottom: 75px; }
+  .pie .separador {
+    color: rgba(255, 255, 255, 0.5); }
 
 .redes {
   display: flex;
@@ -1070,6 +1072,9 @@ footer .redes i {
     color: rgba(255, 255, 255, 0.5); }
   .redes li {
     padding: 0.5rem; }
+
+.extras a {
+  font-size: 0.8rem; }
 
 #nombreCreador {
   text-align: center;
