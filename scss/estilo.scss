@@ -143,7 +143,7 @@ ul li:hover ul {
   font-family: 'Roboto', sans-serif;
 }
 
-.pie a:hover{
+footer a:hover{
   color: white;
 }
 
@@ -179,8 +179,19 @@ footer .redes i{
 }
 
 .extras{
+  background-color: rgba(47, 79, 79,.8);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: relative;
+  bottom: 75px;
+  padding-bottom: 10px;
   a{
     font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+  .separador{
+    color: rgba(255, 255, 255, 0.5);
   }
 }
 
@@ -244,7 +255,7 @@ footer .redes i{
   .logoPrincipal{
     margin:0 auto ;
   }
-  nav{
+  nav, .extras{
     width: 375px;
   }
   .carrusel-respo{
@@ -377,7 +388,7 @@ footer .redes i{
   .logoPrincipal{
     margin:0 auto ;
   }
-  nav{
+  nav, .extras{
     width: 414px;
   }
   .carrusel-respo{
