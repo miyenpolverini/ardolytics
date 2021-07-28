@@ -507,7 +507,7 @@ h5 {
 .cuadroSemis1,
 .cuadroSemis2,
 .cuadroFinal {
-  background-color: rgba(0, 128, 0, 0.3);
+  background-color: rgba(0, 128, 0, 0.6);
   width: 130px;
   height: 100px;
   border: 3px solid black;
@@ -928,7 +928,6 @@ h5 {
 /* CUERPO */
 .body-index {
   background-image: url(../img/pool_table.png);
-  font-family: Arial, Helvetica, sans-serif;
   color: black; }
 
 .body-color-var {
@@ -943,6 +942,9 @@ h5 {
   box-sizing: border-box; }
 
 /* TITULOS */
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
 .logoPrincipal {
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -1160,28 +1162,6 @@ footer .redes i {
     margin-left: 8.2em; }
   .menu-boot:hover {
     border-bottom: none; }
-  .submenu-boot li .flecha-jug {
-    margin-left: 46%; }
-  .submenu-boot li .flecha-dt {
-    margin-left: 14%; }
-  .submenu-boot li .flecha-ligas-arg {
-    margin-left: 3.2em; }
-  .submenu-boot li .flecha-ligas-ing {
-    margin-left: 3.5em; }
-  .submenu-boot li .flecha-ligas-esp {
-    margin-left: 7.5em; }
-  .submenu-boot li .flecha-ligas-ita {
-    margin-left: 7.5em; }
-  .submenu-boot li .flecha-ligas-ale {
-    margin-left: 5.5em; }
-  .submenu-boot li .flecha-copas-america {
-    margin-left: 5.6em; }
-  .submenu-boot li .flecha-copas-eurocopa {
-    margin-left: 7.7em; }
-  .submenu-boot li .flecha-equipos-arg {
-    margin-left: 7.5em; }
-  .submenu-boot li .flecha-selecciones-rank {
-    margin-left: 5.8em; }
   .pie {
     display: block;
     position: relative;
@@ -1241,28 +1221,6 @@ footer .redes i {
     margin-left: 8.2em; }
   .menu-boot:hover {
     border-bottom: none; }
-  .submenu-boot li .flecha-jug {
-    margin-left: 46%; }
-  .submenu-boot li .flecha-dt {
-    margin-left: 14%; }
-  .submenu-boot li .flecha-ligas-arg {
-    margin-left: 3.2em; }
-  .submenu-boot li .flecha-ligas-ing {
-    margin-left: 3.5em; }
-  .submenu-boot li .flecha-ligas-esp {
-    margin-left: 7.5em; }
-  .submenu-boot li .flecha-ligas-ita {
-    margin-left: 7.5em; }
-  .submenu-boot li .flecha-ligas-ale {
-    margin-left: 5.5em; }
-  .submenu-boot li .flecha-copas-america {
-    margin-left: 5.6em; }
-  .submenu-boot li .flecha-copas-eurocopa {
-    margin-left: 7.7em; }
-  .submenu-boot li .flecha-equipos-arg {
-    margin-left: 7.5em; }
-  .submenu-boot li .flecha-selecciones-rank {
-    margin-left: 5.8em; }
   .pie {
     display: block;
     position: relative;
