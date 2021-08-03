@@ -81,7 +81,7 @@ form {
   width: 500px;
   margin-bottom: 10px; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1090px) {
   .titulo-ojeadores {
     font-size: 10px;
     width: 375px; }
@@ -567,7 +567,7 @@ h5 {
     width: 100px;
     margin-bottom: 5px; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1124px) {
   .contenido-copa-america img {
     display: none; }
   .seleccionBox {
@@ -1136,10 +1136,8 @@ footer .redes i {
     bottom: 300px; }
   .logoPrincipal {
     margin: 0 auto; }
-  nav, .extras {
-    width: 375px; }
-  .carrusel-respo {
-    width: 375px; }
+  nav, .extras, .carrusel-respo {
+    width: 100%; }
   .contenido-menu .sub-contenido-menu {
     padding: 1rem;
     border-bottom: 1px solid white; }
@@ -1187,7 +1185,7 @@ footer .redes i {
     right: 50px;
     position: fixed; } }
 
-@media only screen and (min-width: 376px) and (max-width: 768px) {
+@media only screen and (min-width: 376px) and (max-width: 990px) {
   .carousel-portada {
     height: 500px; }
   .nav-index {
@@ -1195,10 +1193,8 @@ footer .redes i {
     bottom: 500px; }
   .logoPrincipal {
     margin: 0 auto; }
-  nav, .extras {
-    width: 414px; }
-  .carrusel-respo {
-    width: 414px; }
+  nav, .extras, .carrusel-respo {
+    width: 100%; }
   .contenido-menu .sub-contenido-menu {
     padding: 1rem;
     border-bottom: 1px solid white; }
@@ -1225,7 +1221,7 @@ footer .redes i {
     display: block;
     position: relative;
     bottom: 75px;
-    width: 414px; }
+    width: 100%; }
   .contacto {
     display: block; }
   .redes {
@@ -1239,3 +1235,7 @@ footer .redes i {
     right: 15px; }
   footer .redes #logo-facebook {
     padding: 12px 15px; } }
+
+@media only screen and (min-width: 991px) and (max-width: 1206px) {
+  .logoPrincipal {
+    margin-right: 20px; } }

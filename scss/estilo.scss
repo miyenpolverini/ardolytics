@@ -259,11 +259,9 @@ footer .redes i{
   .logoPrincipal{
     margin:0 auto ;
   }
-  nav, .extras{
-    width: 375px;
-  }
-  .carrusel-respo{
-    width: 375px;
+  
+  nav, .extras, .carrusel-respo{
+    width: 100%;
   }
 
   .contenido-menu .sub-contenido-menu{
@@ -342,7 +340,7 @@ footer .redes i{
 }
 
 
-@media only screen and (min-width: 376px) and (max-width: 768px){
+@media only screen and (min-width: 376px) and (max-width: 990px){
   
   .carousel-portada{
     height: 500px;
@@ -356,13 +354,10 @@ footer .redes i{
   .logoPrincipal{
     margin:0 auto ;
   }
-  nav, .extras{
-    width: 414px;
+  nav, .extras, .carrusel-respo{
+    width: 100%;
   }
-  .carrusel-respo{
-    width: 414px;
-  }
-
+  
   .contenido-menu .sub-contenido-menu{
     padding: 1rem;
     border-bottom: 1px solid white;
@@ -406,7 +401,7 @@ footer .redes i{
     display: block;
     position: relative;
     bottom: 75px;
-    width: 414px;
+    width: 100%;
   }
   .contacto{
     display: block;
@@ -428,5 +423,12 @@ footer .redes i{
     }
   } 
   
+}
+
+@media only screen and (min-width: 991px)and (max-width: 1206px){
+  .logoPrincipal{
+    margin-right: 20px;
+  }
+ 
 }
 
