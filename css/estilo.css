@@ -1137,7 +1137,9 @@ footer .redes i {
   .logoPrincipal {
     margin: 0 auto; }
   nav, .extras, .carrusel-respo {
-    width: 100%; }
+    width: 375px; }
+  .nav-aux {
+    width: 500px; }
   .contenido-menu .sub-contenido-menu {
     padding: 1rem;
     border-bottom: 1px solid white; }
@@ -1195,6 +1197,8 @@ footer .redes i {
     margin: 0 auto; }
   nav, .extras, .carrusel-respo {
     width: 100%; }
+  .nav-aux {
+    width: 130%; }
   .contenido-menu .sub-contenido-menu {
     padding: 1rem;
     border-bottom: 1px solid white; }
