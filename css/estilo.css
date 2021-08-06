@@ -1073,8 +1073,7 @@ ul li:hover ul {
       display: inline-flex;
       justify-content: space-between;
       border-bottom: 1px solid black;
-      width: 260px;
-      margin-bottom: 10px; }
+      width: 260px; }
 
 /* FOOTER */
 .contacto .boton-contacto {
@@ -1110,7 +1109,7 @@ footer .redes i {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px; }
+  margin-top: 120px; }
   .pie .separador {
     color: rgba(255, 255, 255, 0.5); }
 
