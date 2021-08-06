@@ -33,6 +33,12 @@ h1, h2{
   font-size: 1.5em;  
 }
 
+h3{
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
 h4{
   color: white;
   text-align: center;
@@ -40,6 +46,12 @@ h4{
   font-size: 1em;
   font-weight: bold;
 
+}
+
+h6{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.8);
 }
 
 a{
@@ -129,15 +141,36 @@ ul li:hover ul {
   }
 } 
 
+.tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  .tarjeta{
+    width: 300px;
+    p{
+      font-family: 'Roboto', sans-serif;
+      font-size: .7rem;
+    }
+    img{
+      width: 40px;
+    }
+    .tarjeta-contenido{
+      display: flex;
+      display: inline-flex;  
+      justify-content: space-between;
+      border-bottom: 1px solid black;
+      width: 260px;
+      margin-bottom: 10px;
+    }
+  }
+ 
+}
+
 /* FOOTER */
+
 .contacto{
-         display: flex;
-         justify-content:center;
-         align-items:center;
-         .seccion-contacto{
-                           padding: 0.5rem;
-         }
-         .boton-contacto{
+  .boton-contacto{
            width: 120px;
          }
 }
@@ -155,14 +188,31 @@ footer .redes i{
   font-size: 1rem;
 }
 
+.suscripcion{
+  background-image: url(../img/pelota1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+     h2{
+     text-align: center;
+     color: black;
+     font-family: 'Roboto', sans-serif;
+     font-size: 1.8rem;
+     padding-top: 14px;
+    }
+    .boton-suscripcion{
+      text-align: center;
+    }
+
+}
+
 .pie{
   background-color: rgba(47, 79, 79,.8);
   padding: 50px;
   display: flex;
   justify-content:space-between;
   align-items: center;
-  position: relative;
-  bottom: 75px;
+  margin-top: 50px;
   .separador{
     color: rgba(255, 255, 255, 0.5);
   }
@@ -187,9 +237,7 @@ footer .redes i{
   display: flex;
   justify-content: center;
   align-items:center;
-  position: relative;
-  bottom: 75px;
-  padding-bottom: 10px;
+  margin-bottom: 50px;
   a{
     font-size: 0.8rem;
     padding: 0.5rem;
@@ -260,8 +308,8 @@ footer .redes i{
     margin:0 auto ;
   }
   
-  nav, .extras, .carrusel-respo{
-    width: 375px;
+  nav, .extras, .carrusel-respo, .suscripcion{
+    width: 400px;
   }
 
   .nav-aux{
@@ -307,15 +355,21 @@ footer .redes i{
     }
   }
 
+  .tarjetas{
+    .tarjeta{
+      margin-left: 45px;
+    }
+  }
+
+
   .pie{
     display: block;
-    position: relative;
-    bottom: 75px;
-    width: 375px;
+    width: 400px;
+      .seccion-contacto{
+       text-align: center;
+       }
   }
-  .contacto{
-    display: block;
-  }
+  
   .redes{
     margin-top: 50px;
   }
@@ -358,7 +412,7 @@ footer .redes i{
   .logoPrincipal{
     margin:0 auto ;
   }
-  nav, .extras, .carrusel-respo{
+  nav, .extras, .carrusel-respo, .suscripcion{
     width: 100%;
   }
 
@@ -405,12 +459,20 @@ footer .redes i{
     }
   }
 
+  .tarjetas{
+    .tarjeta-general{
+      margin-left: 40px;
+    }
+  }
+
   .pie{
     display: block;
-    position: relative;
-    bottom: 75px;
     width: 100%;
+    .seccion-contacto{
+      text-align: center;
+      }
   }
+
   .contacto{
     display: block;
   }
