@@ -127,6 +127,19 @@ form {
     .estiloForm .label-responsive, .estiloFormDt .label-responsive {
       width: 100px; } }
 
+.titulo-liga {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .titulo-liga .logo-liga {
+    width: 200px;
+    margin-right: 50px; }
+  .titulo-liga .logo-liga2 {
+    width: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
 /* HTML COPALIGA - TABLAS */
 table {
   width: 400px;
@@ -241,6 +254,8 @@ table, th, td {
   width: 500px; }
 
 @media only screen and (max-width: 768px) {
+  .titulo-liga .logo-liga2 {
+    margin-left: 50px; }
   .contenido-posiciones {
     margin: 0; } }
 
@@ -600,7 +615,7 @@ h5 {
   margin: 50px 30px; }
 
 .barraPuntos h4 {
-  color: white;
+  color: black;
   text-decoration: none;
   text-align: left;
   background: none;
@@ -615,12 +630,9 @@ h5 {
   margin-left: 10px; }
 
 .fifa {
-  width: 150px;
-  margin: 0 auto; }
-  .fifa img {
-    width: 150px; }
+  width: 150px; }
   .fifa h4 {
-    margin-top: 30px; }
+    margin-left: 50px; }
 
 .barra1,
 .barra2,
